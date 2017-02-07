@@ -6,12 +6,17 @@
 
 @font-face {
    font-family: Gotham-Thin;
-   src: url(../Gotham%20Thin.TTF);
+   src: url('../Gotham%20Thin.TTF');
 }
 
 @font-face {
    font-family: Gotham-Light;
-   src: url(../Gotham%20Light.TTF);
+   src: url('../Gotham%20Light.TTF');
+}
+
+@font-face {
+   font-family: Montez;
+   src: url('https://fonts.googleapis.com/css?family=Montez');
 }
 
 /* BODY */
