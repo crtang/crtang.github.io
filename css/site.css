@@ -6,12 +6,12 @@
 
 @font-face {
    font-family: Gotham-Thin;
-   src: url(crtang.github.io/css/Gotham Thin.TTF);
+   src: url('crtang.github.io/css/Gotham Thin.TTF') format('truetype');
 }
 
 @font-face {
    font-family: Gotham-Light;
-   src: url(crtang.github.io/css/Gotham Light.TTF);
+   src: url('crtang.github.io/css/Gotham Light.TTF') format('truetype');
 }
 
 @font-face {
