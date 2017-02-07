@@ -26,6 +26,14 @@ body {
    padding: 50px;
 }
 
+nav {
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   margin: 0px;
+   padding: 0px;
+   font: 30px 'Montez', cursive;
+}
+
 h1 {
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
@@ -33,14 +41,6 @@ h1 {
    padding: 0px;
    font: 40px 'Gotham-Thin', sans-serif;
    line-height: 1.3;
-}
-
-h3 {
-   -webkit-margin-before: 0em;
-   -webkit-margin-after: 0em;
-   margin: 0px;
-   padding: 0px;
-   font: 30px 'Montez', cursive;
 }
 
 p {
