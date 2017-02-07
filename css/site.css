@@ -6,12 +6,12 @@
 
 @font-face {
    font-family: Gotham-Thin;
-   src: url('../Gotham%20Thin.TTF');
+   src: url('crtang.github.io/css/Gotham Thin.TTF');
 }
 
 @font-face {
    font-family: Gotham-Light;
-   src: url('../Gotham%20Light.TTF');
+   src: url('crtang.github.io/css/Gotham Light.TTF');
 }
 
 @font-face {
@@ -31,7 +31,7 @@ nav {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 30px 'Gotham-Light';
+   font: 30px 'Gotham-Light', sans-serif;
 }
 
 #site {
