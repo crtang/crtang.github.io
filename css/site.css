@@ -3,6 +3,7 @@
 /* FONTS */
 
 @import url('https://fonts.googleapis.com/css?family=Montez');
+@import url('https://fonts.googleapis.com/css?family=Port+Lligat+Sans');
 
 @font-face {
    font-family: Gotham-Thin;
@@ -19,6 +20,11 @@
    src: url('https://fonts.googleapis.com/css?family=Montez');
 }
 
+@font-face {
+   font-family: Port-Lligat-Sans;
+   src: url('https://fonts.googleapis.com/css?family=Port+Lligat+Sans');
+}
+
 /* BODY */
 
 body {
@@ -31,7 +37,7 @@ nav {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 30px 'Gotham-Light', sans-serif;
+   font: 30px 'Gotham-Light', 'Port-Lligat-Sans', sans-serif;
 }
 
 #site {
@@ -44,7 +50,7 @@ nav {
 }
 
 p {
-   font: 15px 'Gotham-Light', sans-serif;
+   font: 15px 'Gotham-Light', 'Port-Lligat-Sans', sans-serif;
    line-height: 1.5;
 }
 
