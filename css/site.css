@@ -31,7 +31,7 @@ nav {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 30px 'Montez', cursive;
+   font: 30px 'Gotham-Light';
 }
 
 h1.site {
@@ -39,7 +39,7 @@ h1.site {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 40px 'Gotham-Thin', sans-serif;
+   font: 40px 'Montez', sans-serif;
    line-height: 1.3;
 }
 
