@@ -34,7 +34,7 @@ nav {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 30px 'Montez', sans-serif;
+   font: 30px 'Gotham-Light', sans-serif;
 }
 
 p {
@@ -72,6 +72,8 @@ a:active {
 
 footer {
    text-align: center;
+   font: 15px 'Cormorant-Garamond', serif;
+   color: #f4e5c9;
 }
 
 
