@@ -84,9 +84,12 @@ footer {
 
 /* IDS */
 #welcome {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
    background-color: #201f1f;
-   font: 40px 'Cormorant-Garamond', serif;
-   color: #f4e5c9;
 }
 
 #site {
