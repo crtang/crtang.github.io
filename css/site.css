@@ -47,6 +47,7 @@ nav {
    padding: 0px;
    font: 40px 'Gotham-Light', sans-serif;
    line-height: 1.3;
+   color: #000000;
 }
 
 p {
@@ -56,12 +57,12 @@ p {
 
 a, a:link {
    text-decoration: none;
-   color: #000000;
+   color: #4e4a4e;
 }
 
 a:visited {
    text-decoration: none;
-   color: #000000;
+   color: #4e4a4e;
 }
 
 a:hover {
@@ -71,7 +72,7 @@ a:hover {
 
 a:active {
    text-decoration: none;
-   color: #000000;
+   color: #4e4a4e;
 }
 
 .center {
