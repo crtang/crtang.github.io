@@ -89,7 +89,7 @@ footer {
    left: 0;
    right: 0;
    bottom: 0;
-   transform: translate(50%, 50%);
+   transform: translate(-50%, -50%);
    background-color: #201f1f;
    font: 25px 'Cormorant-Garamond', serif;
    color: #f4e5c9;
