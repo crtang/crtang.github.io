@@ -2,7 +2,7 @@
 
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
 
 @font-face {
    font-family: Gotham-Thin;
@@ -16,7 +16,7 @@
 
 @font-face {
    font-family: Cormorant-Garamond;
-   src: url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+   src: url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
 }
 
 
