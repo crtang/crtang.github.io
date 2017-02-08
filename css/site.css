@@ -35,6 +35,7 @@ body {
 nav {
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
+   display: inline-block;
    margin: 0px;
    padding: 0px;
    font: 30px 'Montez', 'Port-Lligat-Sans', sans-serif;
