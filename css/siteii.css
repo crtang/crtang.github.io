@@ -83,17 +83,24 @@ footer {
 
 /* IDS */
 
-#welcome {
+/*#welcome {
    position: fixed;
    top: 0;
    left: 0;
    right: 0;
    bottom: 0;
-   transform: translate(-50%, -50%);
    background-color: #201f1f;
    font: 25px 'Cormorant-Garamond', serif;
    color: #f4e5c9;
 }
+
+#svg-div {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin: auto;
+}*/
 
 #site {
    -webkit-margin-before: 0em;
