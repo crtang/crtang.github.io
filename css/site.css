@@ -3,15 +3,26 @@
 /* FONTS */
 
 @import url('https://fonts.googleapis.com/css?family=Montez');
+@import url('https://fonts.googleapis.com/css?family=Port+Lligat+Sans');
 
 @font-face {
    font-family: Gotham-Thin;
-   src: url(../Gotham%20Thin.TTF);
+   src: url('https://crtang.github.io/css/Gotham Thin.TTF') format('truetype');
 }
 
 @font-face {
    font-family: Gotham-Light;
-   src: url(../Gotham%20Light.TTF);
+   src: url('https://crtang.github.io/css/Gotham Light.TTF') format('truetype');
+}
+
+@font-face {
+   font-family: Montez;
+   src: url('https://fonts.googleapis.com/css?family=Montez');
+}
+
+@font-face {
+   font-family: Port-Lligat-Sans;
+   src: url('https://fonts.googleapis.com/css?family=Port+Lligat+Sans');
 }
 
 /* BODY */
@@ -21,36 +32,37 @@ body {
    padding: 50px;
 }
 
-h1 {
+nav {
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   display: inline;
+   margin: 0px;
+   padding: 0px;
+   font: 30px 'Montez', 'Port-Lligat-Sans', sans-serif;
+}
+
+#site {
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 40px 'Gotham-Thin', sans-serif;
+   font: 40px 'Gotham-Light', sans-serif;
    line-height: 1.3;
 }
 
-h3 {
-   -webkit-margin-before: 0em;
-   -webkit-margin-after: 0em;
-   margin: 0px;
-   padding: 0px;
-   font: 30px 'Montez', cursive;
-}
-
 p {
-   font: 15px 'Gotham-Light', sans-serif;
+   font: 15px 'Gotham-Light', 'Port-Lligat-Sans', sans-serif;
    line-height: 1.5;
 }
 
 a, a:link {
    text-decoration: none;
-   color: #000000;
+   color: #4e4a4e;
 }
 
 a:visited {
    text-decoration: none;
-   color: #000000;
+   color: #4e4a4e;
 }
 
 a:hover {
@@ -60,7 +72,7 @@ a:hover {
 
 a:active {
    text-decoration: none;
-   color: #000000;
+   color: #4e4a4e;
 }
 
 .center {
