@@ -1,0 +1,106 @@
+{margin: 0; padding: 0;}
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+@font-face {
+   font-family: Gotham-Thin;
+   src: url('https://crtang.github.io/fonts/Gotham Thin 10.57.01 PM.TTF') format('truetype');
+}
+
+@font-face {
+   font-family: Gotham-Light;
+   src: url('https://crtang.github.io/fonts/Gotham Light 10.57.00 PM.TTF') format('truetype');
+}
+
+@font-face {
+   font-family: Cormorant-Garamond;
+   src: url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+}
+
+
+/* BODY */
+
+body {
+   margin: 0px;
+   padding: 50px;
+   background-color: #4e4a4e;
+}
+
+nav {
+   display: inline;
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   margin: 0px;
+   padding: 0px;
+   font: 30px 'Montez', sans-serif;
+}
+
+p {
+   font: 15px 'Gotham-Light', sans-serif;
+   line-height: 1.5;
+}
+
+a, a:link {
+   text-decoration: none;
+   color: #4e4a4e;
+}
+
+a:visited {
+   text-decoration: none;
+   color: #4e4a4e;
+}
+
+a:hover {
+   text-decoration: none;
+   /*color: #018c7c;*/
+   color: #12a38c;
+}
+
+a:active {
+   text-decoration: none;
+   color: #4e4a4e;
+}
+
+.center {
+   text-align: center;
+}
+
+
+/* FOOTER */
+
+footer {
+   text-align: center;
+}
+
+
+/* CLASSES */
+
+
+
+/* IDS */
+
+#welcome {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #201f1f;
+   font: 40px 'Cormorant-Garamond', serif;
+   color: #f4e5c9;
+}
+
+#site {
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   margin: 0px;
+   padding: 0px;
+   font: 40px 'Cormorant-Garamond', sans-serif;
+   line-height: 1.3;
+}
+
+
+
+
