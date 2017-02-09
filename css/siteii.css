@@ -67,7 +67,7 @@ a:active {
 
 footer {
    text-align: center;
-   font: 15px 'Cormorant-Garamond-300', serif;
+   font: 15px 'Cormorant-Garamond-300';
    color: #f4e5c9;
 }
 
@@ -85,7 +85,7 @@ footer {
    right: 0;
    bottom: 0;
    background-color: #201f1f;
-   font: 25px 'Cormorant-Garamond-300', serif;
+   font: 25px 'Cormorant-Garamond-300';
    color: #f4e5c9;
 }
 
@@ -102,7 +102,7 @@ footer {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 40px 'Cormorant-Garamond-300', serif;
+   font: 40px 'Cormorant-Garamond-300';
    line-height: 1.3;
 }
 
