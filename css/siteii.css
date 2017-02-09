@@ -2,8 +2,6 @@
 
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
-
 @font-face {
    font-family: Gotham-Thin;
    src: url('https://crtang.github.io/fonts/Gotham Thin 10.57.01 PM.TTF') format('truetype');
@@ -15,8 +13,13 @@
 }
 
 @font-face {
-   font-family: Cormorant-Garamond;
-   src: url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+   font-family: Cormorant-Light;
+   src: url('https://crtang.github.io/fonts/Cormorant-Light.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: Cormorant-Regular;
+   src: url('https://crtang.github.io/fonts/Cormorant-Regular.ttf') format('truetype');
 }
 
 
@@ -72,7 +75,7 @@ a:active {
 
 footer {
    text-align: center;
-   font: 15px 'Cormorant-Garamond', serif;
+   font: 15px 'Cormorant-Light', serif;
    color: #f4e5c9;
 }
 
@@ -92,7 +95,7 @@ footer {
    right: 0;
    bottom: 0;
    background-color: #201f1f;
-   font: 25px 'Cormorant-Garamond', serif;
+   font: 25px 'Cormorant-Light', serif;
    color: #f4e5c9;
 }
 
@@ -109,7 +112,7 @@ footer {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 40px 'Cormorant-Garamond', serif;
+   font: 40px 'Cormorant-Light', serif;
    line-height: 1.3;
 }
 
