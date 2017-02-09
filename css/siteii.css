@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
 
 @font-face {
+   font-family: Gotham-Thin;
+   src: url('https://crtang.github.io/fonts/Gotham Thin 10.57.01 PM.TTF') format('truetype');
+}
+
+@font-face {
    font-family: Gotham-Light;
    src: url('https://crtang.github.io/fonts/Gotham Light 10.57.00 PM.TTF') format('truetype');
 }
@@ -29,32 +34,33 @@ nav {
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px;
-   font: 30px 'Gotham-Light', sans-serif;
+   font: 30px 'Gotham-Thin', sans-serif;
 }
 
 p {
-   font: 15px 'Gotham-Light', sans-serif;
+   font: 15px 'Gotham-Thin', sans-serif;
    line-height: 1.5;
 }
 
 a, a:link {
    text-decoration: none;
-   color: #4e4a4e;
+   color: #946c1e;
 }
 
 a:visited {
    text-decoration: none;
-   color: #4e4a4e;
+   color: #946c1e;
 }
 
 a:hover {
    text-decoration: none;
+   font-family: 'Gotham-Light', sans-serif;
    color: #12a38c;
 }
 
 a:active {
    text-decoration: none;
-   color: #4e4a4e;
+   color: #946c1e;
 }
 
 .center {
