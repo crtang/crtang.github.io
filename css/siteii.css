@@ -2,10 +2,10 @@
 
 /* FONTS */
 
-@font-face {
+/*@font-face {
    font-family: Gotham-Thin;
    src: url('https://crtang.github.io/fonts/Gotham Thin 10.57.01 PM.TTF') format('truetype');
-}
+}*/
 
 @font-face {
    font-family: Gotham-Light;
@@ -15,6 +15,11 @@
 @font-face {
    font-family: Cormorant-Light;
    src: url('https://crtang.github.io/fonts/Cormorant-Light.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: Cormorant-Regular;
+   src: url('https://crtang.github.io/fonts/Cormorant-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -44,8 +49,13 @@ section {
    padding: 0px;
 }
 
+h1 {
+   font: 30px 'Cormorant-Regular', serif;
+   line-height: 1.5;
+}
+
 p {
-   font: 15px 'Gotham-Thin', sans-serif;
+   font: 15px 'Gotham-Light', sans-serif;
    line-height: 1.5;
 }
 
