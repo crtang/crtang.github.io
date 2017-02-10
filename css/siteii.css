@@ -65,21 +65,21 @@
 }
 
 .sidebar {
-   display: inline;
+   /*display: inline;*/
    margin: 0px;
-   padding: 50px;
+   padding: 0px;
 }
 
 .main {
-   display: inline;
+   /*display: inline;*/
    margin: 0px;
-   padding: 50px;
+   padding: 0px;
    background-color: #f4e5c9;
 }
 
 .footer {
    margin: 0px;
-   padding: 10px 0px 10px 0px;
+   padding: 0px;
 }
 
 
