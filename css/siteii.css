@@ -32,7 +32,7 @@
 
 body {
    margin: 0px;
-   padding: 50px;
+   padding: 0px;
    background-color: #4e4a4e;
 }
 
@@ -108,8 +108,8 @@ footer {
 .sidebar {
    position: relative;
    margin: 0px;
-   padding: 20px 20px 0px 60pxpx;
-   width: 20%;
+   padding: 60px 60px 0px 60px;
+   width: 15%;
    height: 100%;
    z-index: 2;
 }
@@ -117,8 +117,9 @@ footer {
 .main {
    position: relative;
    margin: 0px;
-   padding: 50px;
-   width: 100%;
+   padding: 60px;
+   float: right;
+   width: 85%;
    height: 100%;
    background-color: #f4e5c9;
    z-index: 0;
