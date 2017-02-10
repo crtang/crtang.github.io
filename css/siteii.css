@@ -18,8 +18,8 @@
 }
 
 @font-face {
-   font-family: Cormorant-Regular;
-   src: url('https://crtang.github.io/fonts/Cormorant-Regular.ttf') format('truetype');
+   font-family: Montez;
+   src: url('https://fonts.googleapis.com/css?family=Montez');
 }
 
 
@@ -37,7 +37,7 @@ nav {
    margin: 0px;
    padding: 0px;
    text-align: right;
-   font: 30px 'Gotham-Thin', sans-serif;
+   font: 30px 'Montez', sans-serif;
 }
 
 p {
