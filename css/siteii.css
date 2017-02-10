@@ -46,6 +46,7 @@ p {
 }
 
 a, a:link {
+   display: block;
    text-decoration: none;
    color: #946c1e;
 }
