@@ -205,12 +205,14 @@ a:active {
 /* FOOTER */
 
 footer {
+   position: absolute;
    width: 100%;
    height: 40px;
    background-color: #12a38c;
    text-align: center;
    font: 15px 'Cormorant-Light', serif;
    color: #f4e5c9;
+   z-index: 3;
 }
 
 
