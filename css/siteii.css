@@ -34,7 +34,7 @@ body {
 nav {
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
-   margin: 0px;
+   margin: 20px 0px 0px 0px;
    padding: 0px;
    font: 30px 'Montez', sans-serif;
 }
@@ -71,10 +71,6 @@ a:active {
    color: #946c1e;
 }
 
-.center {
-   text-align: center;
-}
-
 
 /* FOOTER */
 
@@ -86,8 +82,17 @@ footer {
 
 
 /* CLASSES */
+
+.center {
+   text-align: center;
+}
+
 .inline {
    display: inline;
+}
+
+.align {
+   vertical-align: top;
 }
 
 .sidebar {
