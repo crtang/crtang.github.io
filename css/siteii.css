@@ -108,7 +108,7 @@ footer {
 .sidebar {
    margin: 0px;
    padding: 20px 20px 0px 60pxpx;
-   width: 200px;
+   width: 20%;
    height: 100%;
    z-index: 2;
 }
