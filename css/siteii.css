@@ -106,6 +106,7 @@ footer {
 }
 
 .sidebar {
+   position: relative;
    margin: 0px;
    padding: 20px 20px 0px 60pxpx;
    width: 20%;
@@ -114,6 +115,7 @@ footer {
 }
 
 .main {
+   position: relative;
    margin: 0px;
    padding: 50px;
    width: 100%;
