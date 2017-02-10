@@ -80,22 +80,22 @@ ul.topnav li.icon {
 }*/
 
 .sidebar {
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    box-sizing: border-box;
    color: #12a38c;
 }
 
 .main {
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    box-sizing: border-box;
    background-color: #f4e5c9;
 }
 
 .footer {
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    box-sizing: border-box;
 }
 
@@ -124,8 +124,8 @@ ul.topnav li.icon {
 #site {
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    width: 100px;
    height: 104px;
    font: 40px 'Cormorant-Light', serif;
@@ -149,11 +149,11 @@ ul.topnav li.icon {
 
 /* BODY */
 
-/*body {
-   margin: 0;
-   padding: 0;
+body {
+   margin: 0px;
+   padding: 0px;
    background-color: #4e4a4e;
-}*/
+}
 
 nav {
    -webkit-margin-before: 0em;
@@ -164,8 +164,8 @@ nav {
 }
 
 section {
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
 }
 
 h1 {
