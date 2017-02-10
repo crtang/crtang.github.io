@@ -28,6 +28,95 @@
 }
 
 
+/* MEDIA QUERIES */
+
+@media all and (min-width: 600px;) {
+   .sidebar {flex: 1 auto;}
+}
+
+@media all and (min-width: 800px;) {
+   .main    {flex: 4 0px;}
+   .sidebar {order: 1;}
+   .main    {order: 2;}
+   .footer  {order: 3;}
+}
+
+
+/* CLASSES */
+
+.flex-container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+ 
+.flex-container > * {
+   padding: 50px;
+   flex: 1 100%;
+}
+
+.center {
+   text-align: center;
+}
+
+.align {
+   vertical-align: top;
+}
+
+.sidebar {
+   display: inline;
+   margin: 0px;
+   padding: 50px;
+}
+
+.main {
+   display: inline;
+   margin: 0px;
+   padding: 50px;
+   background-color: #f4e5c9;
+}
+
+.footer {
+   margin: 0px;
+   padding: 10px 0px 10px 0px;
+}
+
+
+/* IDS */
+
+/*#welcome {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #201f1f;
+   font: 25px 'Cormorant-Light', serif;
+   color: #f4e5c9;
+}
+
+#svg-div {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin: auto;
+}*/
+
+#site {
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   margin: 0px;
+   padding: 0px;
+   width: 100px;
+   height: 104px;
+   font: 40px 'Cormorant-Light', serif;
+   line-height: 1.3;
+}
+
+
+
 /* BODY */
 
 body {
@@ -84,75 +173,12 @@ a:active {
 /* FOOTER */
 
 footer {
-   position: absolute;
    width: 100%;
-   height: 60px;
+   height: 40px;
    background-color: #12a38c;
    text-align: center;
    font: 15px 'Cormorant-Light', serif;
    color: #f4e5c9;
-   z-index: 1;
-}
-
-
-/* CLASSES */
-
-.center {
-   text-align: center;
-}
-
-.inline {
-   display: inline;
-}
-
-.align {
-   vertical-align: top;
-}
-
-.sidebar {
-   display: inline;
-   margin: 0px;
-   padding: 50px;
-}
-
-.main {
-   display: inline;
-   margin: 0px;
-   padding: 50px;
-   background-color: #f4e5c9;
-}
-
-
-/* IDS */
-
-/*#welcome {
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   background-color: #201f1f;
-   font: 25px 'Cormorant-Light', serif;
-   color: #f4e5c9;
-}
-
-#svg-div {
-   position: relative;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   margin: auto;
-}*/
-
-#site {
-   -webkit-margin-before: 0em;
-   -webkit-margin-after: 0em;
-   margin: 0px;
-   padding: 0px;
-   width: 100px;
-   height: 104px;
-   font: 40px 'Cormorant-Light', serif;
-   line-height: 1.3;
 }
 
 
