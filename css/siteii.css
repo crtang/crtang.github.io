@@ -68,18 +68,21 @@
    /*display: inline;*/
    margin: 0px;
    padding: 0px;
+   box-sizing: border-box;
 }
 
 .main {
    /*display: inline;*/
    margin: 0px;
    padding: 0px;
+   box-sizing: border-box;
    background-color: #f4e5c9;
 }
 
 .footer {
    margin: 0px;
    padding: 0px;
+   box-sizing: border-box;
 }
 
 
