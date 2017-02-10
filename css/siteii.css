@@ -81,21 +81,21 @@ ul.topnav li.icon {
 
 .sidebar {
    margin: 0px;
-   padding: 0px;
+   padding: 50px;
    box-sizing: border-box;
    color: #12a38c;
 }
 
 .main {
    margin: 0px;
-   padding: 0px;
+   padding: 50px;
    box-sizing: border-box;
    background-color: #f4e5c9;
 }
 
 .footer {
    margin: 0px;
-   padding: 0px;
+   padding: 10px;
    box-sizing: border-box;
 }
 
