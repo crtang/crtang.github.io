@@ -39,7 +39,7 @@ body {
 nav {
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
-   margin: 20px 0px 0px 0px;
+   margin: 0px;
    padding: 0px;
    font: 30px 'Montez', sans-serif;
 }
@@ -84,9 +84,11 @@ a:active {
 /* FOOTER */
 
 footer {
+   position: absolute;
    text-align: center;
    font: 15px 'Cormorant-Light', serif;
    color: #f4e5c9;
+   z-index: 1;
 }
 
 
@@ -106,26 +108,19 @@ footer {
 
 .sidebar {
    display: inline;
-   position: relative;
-   left: 0%;
    margin: 0px;
-   padding: 60px 60px 0px 60px;
-   width: 15%;
+   padding: 5% 5% 0% 5%;
+   width: 10%;
    height: 100%;
-   z-index: -1;
 }
 
 .main {
    display: inline;
-   position: relative;
-   left: 15%;
    margin: 0px;
-   padding: 60px;
-   float: right;
-   width: 85%;
+   padding: 5%;
+   width: 75%;
    height: 100%;
    background-color: #f4e5c9;
-   z-index: -1;
 }
 
 
