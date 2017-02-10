@@ -85,6 +85,9 @@ a:active {
 
 footer {
    position: absolute;
+   width: 100%;
+   height: 60px;
+   background-color: #12a38c;
    text-align: center;
    font: 15px 'Cormorant-Light', serif;
    color: #f4e5c9;
@@ -109,17 +112,13 @@ footer {
 .sidebar {
    display: inline;
    margin: 0px;
-   padding: 5% 5% 0% 5%;
-   width: 10%;
-   height: 100%;
+   padding: 50px;
 }
 
 .main {
    display: inline;
    margin: 0px;
-   padding: 5%;
-   width: 75%;
-   height: 100%;
+   padding: 50px;
    background-color: #f4e5c9;
 }
 
