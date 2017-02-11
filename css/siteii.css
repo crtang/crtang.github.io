@@ -46,7 +46,7 @@
    text-align: center;
 }
 
-.align {
+.align img, .align h1 {
    vertical-align: top;
 }
 
