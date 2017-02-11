@@ -214,23 +214,23 @@ footer {
    z-index: 3;
 }
 
-a, a:link {
+a.ft, a.ft:link {
    display: inline;
    text-decoration: none;
    color: #12a38c;
 }
 
-a:visited {
+a.ft:visited {
    text-decoration: none;
    color: #12a38c;
 }
 
-a:hover {
+a.ft:hover {
    text-decoration: none;
    color: #f4e5c9;
 }
 
-a:active {
+a.ft:active {
    text-decoration: none;
    color: #12a38c;
 }
