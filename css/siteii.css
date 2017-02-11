@@ -215,7 +215,7 @@ footer {
    z-index: 3;
 }
 
-ul.botnav {
+/*ul.botnav {
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -235,9 +235,9 @@ ul.botnav li a {
 
 ul.botnav li a:hover {
    color: #12a38c;
-}
+}*/
 
-/*a.ft, a.ft:link {
+a.ft, a.ft:link {
    display: inline;
    text-decoration: none;
    color: #946c1e;
@@ -256,7 +256,7 @@ a.ft:hover {
 a.ft:active {
    text-decoration: none;
    color: #946c1e;
-}*/
+}
 
 
 
