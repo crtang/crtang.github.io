@@ -245,10 +245,9 @@ ul.botnav li a:hover {
 }*/
 
 a.ft {
-   list-style-type: none;
    display: inline;
    margin: 0px;
-   padding: 0px;
+   padding: 20px;
    text-decoration: none;
    color: #946c1e;
 }
