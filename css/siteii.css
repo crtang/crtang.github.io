@@ -244,6 +244,19 @@ ul.botnav li a:hover {
    color: #12a38c;
 }*/
 
+a.ft {
+   list-style-type: none;
+   display: inline;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   color: #946c1e;
+}
+
+a.ft:hover {
+   color: #12a38c;
+}
+
 
 
 
