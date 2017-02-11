@@ -93,9 +93,9 @@ ul.topnav li.icon {
    background-color: #f4e5c9;
 }
 
-.ft {
+.footer {
    margin: 0px;
-   padding: 10px;
+   padding: 20px;
    box-sizing: border-box;
 }
 
@@ -243,28 +243,6 @@ ul.botnav li a {
 ul.botnav li a:hover {
    color: #12a38c;
 }*/
-
-a.ft, a.ft:link {
-   display: inline;
-   padding: 20px;
-   text-decoration: none;
-   color: #946c1e;
-}
-
-a.ft:visited {
-   text-decoration: none;
-   color: #946c1e;
-}
-
-a.ft:hover {
-   text-decoration: none;
-   color: #12a38c;
-}
-
-a.ft:active {
-   text-decoration: none;
-   color: #946c1e;
-}
 
 
 
