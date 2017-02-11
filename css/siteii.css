@@ -84,6 +84,7 @@ ul.topnav li.icon {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
+   width: 15%;
    color: #12a38c;
 }
 
@@ -91,6 +92,7 @@ ul.topnav li.icon {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
+   width: 85%;
    background-color: #f4e5c9;
 }
 
