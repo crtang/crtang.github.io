@@ -39,7 +39,6 @@
  
 .flex-container > * {
    padding: 50px;
-   flex: 1 100%;
 }
 
 .center {
@@ -84,7 +83,6 @@ ul.topnav li.icon {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
-   width: 15%;
    color: #12a38c;
 }
 
@@ -92,7 +90,6 @@ ul.topnav li.icon {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
-   width: 85%;
    background-color: #f4e5c9;
 }
 
@@ -144,10 +141,14 @@ ul.topnav li.icon {
 
 @media all and (min-width: 680px;) {
    .sidebar {flex: 1 auto;}
+   .main    {flex: 1 auto;}
+   .footer  {flex: 1 auto;}
 }
 
 @media all and (min-width: 800px;) {
+   .sidebar {flex: 1 0px;}
    .main    {flex: 4 0px;}
+   .footer  {flex: 5 0px;}
    .sidebar {order: 1;}
    .main    {order: 2;}
    .footer  {order: 3;}
