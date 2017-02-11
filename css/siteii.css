@@ -224,6 +224,7 @@ ul.botnav {
 }
 
 ul.botnav li a {
+   list-style-type: none;
    display: inline;
    color: #946c1e;
    text-align: center;
