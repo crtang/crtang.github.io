@@ -246,6 +246,7 @@ ul.botnav li a:hover {
 
 a.ft, a.ft:link {
    display: inline;
+   padding: 20px;
    text-decoration: none;
    color: #946c1e;
 }
