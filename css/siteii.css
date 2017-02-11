@@ -214,26 +214,47 @@ footer {
    z-index: 3;
 }
 
-a.ft, a.ft:link {
+ul.botnav {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #4e4a4e;
+}
+
+ul.botnav li a {
+   display: inline-block;
+   color: #946c1e;
+   text-align: center;
+   padding: 20px;
+   text-decoration: none;
+   transition: 0.2s;
+}
+
+ul.botnav li a:hover {
+   color: #12a38c;
+}
+
+/*a.ft, a.ft:link {
    display: inline;
    text-decoration: none;
-   color: #12a38c;
+   color: #946c1e;
 }
 
 a.ft:visited {
    text-decoration: none;
-   color: #12a38c;
+   color: #946c1e;
 }
 
 a.ft:hover {
    text-decoration: none;
-   color: #f4e5c9;
+   color: #12a38c;
 }
 
 a.ft:active {
    text-decoration: none;
-   color: #12a38c;
-}
+   color: #946c1e;
+}*/
 
 
 
