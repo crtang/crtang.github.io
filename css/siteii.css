@@ -47,6 +47,7 @@
 }
 
 .align img, .align h1 {
+   display: inline-block;
    vertical-align: top;
 }
 
