@@ -224,7 +224,7 @@ ul.botnav {
 }
 
 ul.botnav li a {
-   display: inline-block;
+   display: inline;
    color: #946c1e;
    text-align: center;
    padding: 20px;
