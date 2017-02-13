@@ -83,6 +83,7 @@ ul.topnav li.icon {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
+   width: 20%;
    color: #12a38c;
 }
 
@@ -90,6 +91,7 @@ ul.topnav li.icon {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
+   width: 80%;
    background-color: #f4e5c9;
 }
 
@@ -140,18 +142,18 @@ ul.topnav li.icon {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 680px;) {
-   .sidebar {flex: 1 auto;}
+   /*.sidebar {flex: 1 auto;}
    .main    {flex: 1 auto;}
-   .footer  {flex: 1 auto;}
+   .footer  {flex: 1 auto;}*/
 }
 
 @media screen and (min-width: 800px;) {
-   .sidebar {flex: 1 auto;}
+   /*.sidebar {flex: 1 auto;}
    .main    {flex: 4 auto}
    .footer  {flex: 5 auto;}
    .sidebar {order: 1;}
    .main    {order: 2;}
-   .footer  {order: 3;}
+   .footer  {order: 3;}*/
 }
 
 
