@@ -139,13 +139,13 @@ ul.topnav li.icon {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 680px;) {
+@media screen and (min-width: 680px;) {
    .sidebar {flex: 1 auto;}
    .main    {flex: 1 auto;}
    .footer  {flex: 1 auto;}
 }
 
-@media only screen and (min-width: 800px;) {
+@media screen and (min-width: 800px;) {
    .sidebar {flex: 1 auto;}
    .main    {flex: 4 auto}
    .footer  {flex: 5 auto;}
