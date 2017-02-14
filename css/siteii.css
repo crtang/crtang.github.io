@@ -17,10 +17,10 @@
    src: url('https://crtang.github.io/fonts/Cormorant-Light.ttf') format('truetype');
 }
 
-@font-face {
+/*@font-face {
    font-family: Cormorant-Regular;
    src: url('https://crtang.github.io/fonts/Cormorant-Regular.ttf') format('truetype');
-}
+}*/
 
 @font-face {
    font-family: Montez;
@@ -186,7 +186,7 @@ section {
 }
 
 h1 {
-   font: 30px 'Cormorant-Regular', serif;
+   font: 30px 'Cormorant-Light', serif;
    line-height: 1.5;
 }
 
