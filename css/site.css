@@ -19,11 +19,6 @@
    src: url('https://fonts.googleapis.com/css?family=Megrim');
 }
 
-/*@font-face {
-   font-family: Cormorant-Regular;
-   src: url('https://crtang.github.io/fonts/Cormorant-Regular.ttf') format('truetype');
-}*/
-
 @font-face {
    font-family: Montez;
    src: url('https://fonts.googleapis.com/css?family=Montez');
@@ -57,41 +52,12 @@
    padding: 0px 0px 20px 0px;
 }
 
-/*ul.topnav {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #4e4a4e;
-}
-
-ul.topnav li {
-   float: left;
-}
-
-ul.topnav li a {
-   display: inline-block;
-   color: #946c1e;
-   text-align: center;
-   padding: 15px;
-   text-decoration: none;
-   transition: 0.2s;
-}
-
-ul.topnav li a:hover {
-   color: #12a38c;
-}
-
-ul.topnav li.icon {
-   display: none;
-}*/
-
 .sidebar {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
    width: 25%;
-   color: #12a38c;
+   color: #ffffff;
 }
 
 .main {
@@ -200,12 +166,12 @@ p {
 a, a:link {
    display: block;
    text-decoration: none;
-   color: #946c1e;
+   color: #4e4a4e;
 }
 
 a:visited {
    text-decoration: none;
-   color: #946c1e;
+   color: #4e4a4e;
 }
 
 a:hover {
@@ -215,7 +181,7 @@ a:hover {
 
 a:active {
    text-decoration: none;
-   color: #946c1e;
+   color: #4e4a4e;
 }
 
 
@@ -261,11 +227,11 @@ a.ft {
    padding: 20px;
    text-decoration: none;
    font: 18px 'Megrim', serif;
-   color: #946c1e;
+   color: #12a38c;
 }
 
 a.ft:hover {
-   color: #12a38c;
+   color: #ffffff;
 }
 
 
