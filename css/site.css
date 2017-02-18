@@ -87,7 +87,7 @@
    height: 100%;
    background-color: #000000;
    font: 25px 'Megrim', sans-serif;
-   color: #f4e5c9;
+   color: #ffffff;
 }
 
 #svg-div {
@@ -189,7 +189,7 @@ footer {
    height: 120px;
    background-color: #000000;
    text-align: center;
-   font: 15px 'Gotham-Light', sans-serif;
+   font: 25px 'Gotham-Light', sans-serif;
    color: #f4e5c9;
    z-index: 3;
 }
