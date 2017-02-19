@@ -193,7 +193,8 @@ a:active {
 /* FOOTER */
 
 footer {
-   position: absolute;
+   margin: 0px;
+   padding: 20px;
    width: 100%;
    background-color: #000000;
    text-align: center;
