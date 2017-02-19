@@ -47,7 +47,7 @@
    padding: 0px 0px 20px 0px;
 }
 
-.sidebar {
+.ct {
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
@@ -80,15 +80,15 @@
 
 /* IDS */
 
-#welcome {
+/*#welcome {
    margin: 0px;
    padding: 0px;
    width: 100%;
    height: 600px;
    background-color: #000000;
-   font: 25px 'Megrim', sans-serif;
+   font: 30px 'Megrim', sans-serif;
    color: #ffffff;
-}
+}*/
 
 /*#svg-div {
    position: relative;
@@ -103,9 +103,9 @@
    -webkit-margin-after: 0em;
    margin: 0px;
    padding: 0px 0px 0px 15px;
-   width: 100px;
-   height: 104px;
-   font: 45px 'Megrim', serif;
+   width: 100%;
+   height: 0px;
+   font: 50px 'Megrim', serif;
    line-height: 1.3;
 }
 
@@ -133,7 +133,7 @@
    .sidebar {order: 1;}
    .main    {order: 2;}
    .footer  {order: 3;}*/
-   .sidebar {
+   .ct {
       height: 250px;
    }
 }
@@ -144,6 +144,7 @@
 body {
    margin: 0px;
    padding: 0px;
+   width: 100%;
    box-sizing: border-box;
    background-color: #ffffff;
 }
