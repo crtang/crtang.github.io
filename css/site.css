@@ -158,13 +158,21 @@ nav {
    font: 15px /*'Montez',*/ 'Gotham-Light', sans-serif;
 }
 
+nav a {
+   display: inline-block;
+}
+
+nav a:hover {
+   color: #12z38c;
+}
+
 section {
    margin: 0px;
    padding: 0px;
 }
 
 h1 {
-   font: 30px 'Megrim', serif;
+   font: 35px 'Megrim', serif;
    line-height: 1.5;
 }
 
@@ -186,7 +194,7 @@ a:visited {
 
 a:hover {
    text-decoration: none;
-   color: #12a38c;
+   color: #ffffff;
 }
 
 a:active {
