@@ -184,7 +184,6 @@ p {
 }
 
 a, a:link {
-   display: block;
    text-decoration: none;
    color: #4e4a4e;
 }
