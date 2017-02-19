@@ -150,6 +150,7 @@ body {
 }
 
 nav {
+   display: inline-block;
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
    margin: 0;
@@ -197,10 +198,7 @@ a:active {
 /* FOOTER */
 
 footer {
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-flow: row wrap;
-   flex-flow: row wrap;
+   display: inline-block;
    margin: 0px;
    padding: 20px;
    width: 100%;
@@ -215,7 +213,7 @@ footer {
 a.ft {
    display: inline;
    margin: 0px;
-   padding: 20px;
+   padding: 0px 20px 0px 0px;
    text-decoration: none;
    font: 18px 'Megrim', serif;
    color: #12a38c;
