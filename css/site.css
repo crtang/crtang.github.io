@@ -105,8 +105,8 @@
    padding: 0px 0px 0px 15px;
    width: 100%;
    height: 0px;
-   font: 47px 'Megrim', serif;
-   line-height: 1.3;
+   font: 45px 'Megrim', serif;
+   line-height: 1.5;
 }
 
 #about, #contact {
@@ -155,7 +155,7 @@ nav {
    -webkit-margin-after: 0em;
    margin: 0;
    padding: 20px;
-   font: 12px /*'Montez',*/ 'Gotham-Light', sans-serif;
+   font: 15px /*'Montez',*/ 'Gotham-Light', sans-serif;
 }
 
 section {
