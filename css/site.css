@@ -134,7 +134,7 @@
    .main    {order: 2;}
    .footer  {order: 3;}*/
    .ct {
-      height: 250px;
+      height: 150px;
    }
 }
 
@@ -222,7 +222,7 @@ footer {
 a.ft {
    display: inline;
    margin: 0px;
-   padding: 0px 20px 0px 0px;
+   padding: 0px /*20px 0px 0px*/;
    text-decoration: none;
    font: 18px 'Megrim', serif;
    color: #12a38c;
