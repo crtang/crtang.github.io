@@ -14,10 +14,10 @@
    src: url('https://fonts.googleapis.com/css?family=Megrim');
 }
 
-@font-face {
+/*@font-face {
    font-family: Montez;
    src: url('https://fonts.googleapis.com/css?family=Montez');
-}
+}*/
 
 
 /* CLASSES */
@@ -160,6 +160,8 @@ nav {
 
 nav a {
    display: inline-block;
+   margin: 0px;
+   padding: 10px;
 }
 
 nav a:hover {
