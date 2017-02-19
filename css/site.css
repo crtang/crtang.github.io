@@ -141,8 +141,6 @@
 body {
    margin: 0px;
    padding: 0px;
-   width: 100%;
-   height: 100%;
    box-sizing: border-box;
    background-color: #ffffff;
 }
@@ -166,7 +164,7 @@ h1 {
 }
 
 p {
-   font: 15px 'Gotham-Light', sans-serif;
+   font: 20px 'Gotham-Light', sans-serif;
    line-height: 1.5;
 }
 
@@ -197,7 +195,6 @@ a:active {
 footer {
    position: absolute;
    width: 100%;
-   height: 120px;
    background-color: #000000;
    text-align: center;
    font: 25px 'Gotham-Light', sans-serif;
