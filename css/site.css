@@ -84,7 +84,7 @@
    margin: 0px;
    padding: 0px;
    width: 100%;
-   height: 100%;
+   height: 600px;
    background-color: #000000;
    font: 25px 'Megrim', sans-serif;
    color: #ffffff;
@@ -133,6 +133,9 @@
    .sidebar {order: 1;}
    .main    {order: 2;}
    .footer  {order: 3;}*/
+   .sidebar {
+      height: 250px;
+   }
 }
 
 
