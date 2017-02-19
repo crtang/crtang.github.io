@@ -155,6 +155,7 @@ nav {
    -webkit-margin-after: 0em;
    margin: 0;
    padding: 20px;
+   width: 100%;
    font: 15px /*'Montez',*/ 'Gotham-Light', sans-serif;
 }
 
