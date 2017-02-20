@@ -140,6 +140,10 @@
    .ct {
       height: 150px;
    }
+   
+   .main {
+      padding-right: 50px 100px 50px 100px;
+   }
 }
 
 
