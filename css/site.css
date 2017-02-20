@@ -44,7 +44,7 @@
 
 .align img, .align h1 {
    display: inline;
-   vertical-align: middle;
+   vertical-align: text-top;
 }
 
 .pad {
