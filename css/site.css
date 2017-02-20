@@ -50,9 +50,10 @@
 .ct {
    margin: auto;
    padding: 0px; /*50px*/
-   box-sizing: border-box;
+   /*box-sizing: border-box;*/
    /*width: 25%;*/
    width: 100%;
+   text-align: center;
    color: #ffffff;
 }
 
