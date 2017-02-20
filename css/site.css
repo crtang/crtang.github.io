@@ -52,7 +52,7 @@
    padding: 0px; /*50px*/
    /*box-sizing: border-box;*/
    /*width: 25%;*/
-   width: 100%;
+   width: 50%; /*100%*/
    text-align: center;
    color: #ffffff;
 }
