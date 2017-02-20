@@ -39,7 +39,7 @@
 
 .align img, .align h1 {
    display: inline;
-   vertical-align: top;
+   vertical-align: middle;
 }
 
 .pad {
@@ -108,7 +108,7 @@
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
    margin: 0px;
-   padding: 0px 0px 20px 10px;
+   padding: 20px 0px 20px 5px;
    width: 100%;
    height: 0px;
    font: 45px 'Megrim', serif;
