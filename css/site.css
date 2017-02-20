@@ -56,6 +56,10 @@
    color: #ffffff;
 }
 
+.svgh {
+   float: left;
+}
+
 .main {
    margin: 0px;
    padding: 50px;
