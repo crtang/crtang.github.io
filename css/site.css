@@ -62,9 +62,10 @@
    color: #ffffff;
 }
 
-/*.svgh {
-   float: left;
-}*/
+.svgh {
+   margin: 0px;
+   padding: 10px;
+}
 
 .main {
    margin: 0px;
@@ -113,7 +114,7 @@
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
    margin: 0px;
-   padding: 0px 0px 20px 5px;
+   padding: 0px 0px 20px 0px;
    width: 100%;
    height: 0px;
    font: 45px 'Megrim', serif;
