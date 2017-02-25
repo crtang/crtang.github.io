@@ -242,11 +242,13 @@ a.ft {
    padding: 0px 10px 0px 10px;
    text-decoration: none;
    font: 18px 'Megrim', serif;
-   color: #12a38c;
+   /*color: #12a38c;*/
+   color: #4e4a4e;
 }
 
 a.ft:hover {
-   color: #ffffff;
+   /*color: #ffffff;*/
+   color: #12a38c;
 }
 
 
