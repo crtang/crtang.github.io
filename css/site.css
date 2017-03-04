@@ -63,6 +63,7 @@
 }
 
 .svgh {
+   display: none;
    margin: 0px;
    padding: 10px;
 }
@@ -147,6 +148,12 @@
    .footer  {order: 3;}*/
    .ct {
       height: 150px;
+   }
+   
+   .svgh {
+      display: inline;
+      margin: 0px;
+      padding: 10px;
    }
    
    .main {
