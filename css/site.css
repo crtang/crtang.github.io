@@ -138,21 +138,16 @@
 }
 
 @media screen and (min-width: 680px;) {
-   /*.sidebar {flex: 1 auto;}
-   .main    {flex: 1 auto;}
-   .footer  {flex: 1 auto;}*/
    .svgh {
       display: none;
    }
 }
 
 @media screen and (min-width: 800px;) {
-   /*.sidebar {flex: 1 auto;}
-   .main    {flex: 4 auto}
-   .footer  {flex: 5 auto;}
-   .sidebar {order: 1;}
-   .main    {order: 2;}
-   .footer  {order: 3;}*/
+   .head {
+      padding: 50px 0px 10px 0px;
+   }
+   
    .ct {
       height: 150px;
    }
@@ -162,7 +157,7 @@
    }
    
    .main {
-      padding-right: 50px 100px 50px 100px;
+      padding-right: 50px 150px 50px 150px;
    }
 }
 
