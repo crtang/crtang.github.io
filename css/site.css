@@ -67,7 +67,6 @@
 
 .main {
    margin: 0px;
-   padding: 50px;
    box-sizing: border-box;
    width: 100%;
    background-color: #12a38c;
@@ -133,6 +132,10 @@
       display: none;
    }
    
+   .main {
+      padding: 50px;
+   }
+   
    p {
       font-size: 20px;
    }
@@ -141,6 +144,10 @@
 @media screen and (min-width: 680px;) {
    .svgh {
       display: none;
+   }
+   
+   .main {
+      padding: 50px;
    }
 }
 
@@ -208,7 +215,7 @@ h1 {
 }
 
 p {
-   font: 20px 'Gotham-Light', sans-serif;
+   font-family: 'Gotham-Light', sans-serif;
    line-height: 1.5;
 }
 
