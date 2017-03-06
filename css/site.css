@@ -159,6 +159,10 @@
    .main {
       padding: 50px 150px 50px 150px;
    }
+   
+   p {
+      font: 14px;
+   }
 }
 
 
