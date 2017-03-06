@@ -54,10 +54,8 @@
 
 .ct {
    margin: auto;
-   padding: 0px; /*50px*/
-   /*box-sizing: border-box;*/
-   /*width: 25%;*/
-   width: 50%; /*100%*/
+   padding: 0px;
+   width: 50%;
    text-align: center;
    color: #ffffff;
 }
@@ -71,7 +69,6 @@
    margin: 0px;
    padding: 50px;
    box-sizing: border-box;
-   /*width: 75%;*/
    width: 100%;
    background-color: #12a38c;
 }
@@ -135,6 +132,10 @@
    .svgh {
       display: none;
    }
+   
+   p {
+      font-size: 20px;
+   }
 }
 
 @media screen and (min-width: 680px;) {
@@ -161,7 +162,7 @@
    }
    
    p {
-      font: 14px;
+      font-size: 14px;
    }
 }
 
