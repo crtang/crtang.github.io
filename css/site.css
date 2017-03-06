@@ -142,7 +142,7 @@
    .main    {flex: 1 auto;}
    .footer  {flex: 1 auto;}*/
    .svgh {
-      display: initial; /* progressive enhancement */
+      display: none;
    }
 }
 
@@ -158,7 +158,7 @@
    }
    
    .svgh {
-      display: initial;
+      display: initial; /* progressive enhancement */
    }
    
    .main {
