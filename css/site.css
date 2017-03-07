@@ -148,7 +148,7 @@
    }
    
    .svgh {
-      display: initial; /* progressive enhancement */
+      display: inline; /* progressive enhancement */
    }
    
    .main {
