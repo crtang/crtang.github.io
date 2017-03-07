@@ -135,6 +135,10 @@
    .main {
       padding: 50px;
    }
+   
+   p {
+      font-size: 20px;
+   }
 }
 
 @media (min-width: 680px and max-width: 799px;) {
@@ -144,6 +148,10 @@
    
    .main {
       padding: 50px 100px 50px 100px;
+   }
+   
+   p {
+      font-size: 20px;
    }
 }
 
@@ -211,7 +219,7 @@ h1 {
 }
 
 p {
-   font: 20px 'Gotham-Light', sans-serif;
+   font-family: 'Gotham-Light', sans-serif;
    line-height: 1.5;
 }
 
