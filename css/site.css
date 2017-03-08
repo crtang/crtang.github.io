@@ -128,6 +128,10 @@
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 679px) {
+   #site {
+      font-size: 35px;
+   }
+   
    .svgh {
       display: none;
    }
