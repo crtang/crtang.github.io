@@ -127,7 +127,7 @@
 
 
 /* MEDIA QUERIES */
-@media (max-width: 679px;) {
+@media only screen and (max-width: 679px;) {
    .svgh {
       display: none;
    }
@@ -141,7 +141,7 @@
    }
 }
 
-@media (min-width: 680px and max-width: 799px;) {
+@media only screen and (min-width: 680px) and (max-width: 799px) {
    .svgh {
       display: none;
    }
@@ -155,7 +155,7 @@
    }
 }
 
-@media (min-width: 800px;) {
+@media only screen and (min-width: 800px) {
    .head {
       padding: 50px 0px 10px 0px;
    }
