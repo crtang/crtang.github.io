@@ -169,9 +169,11 @@
    
    #site {
       width: 66%;
+      font-size: 30px;
    }
    
    nav {
+      display: block;
       width: 100%;
    }
    
