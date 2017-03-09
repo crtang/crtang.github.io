@@ -123,6 +123,20 @@
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 679px) {
+   .flex-container {
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+   }
+   
+   .sidebar {
+      width: 100%;
+   }
+   
+   nav {
+      display: inline-block;
+      text-align: center;
+   }
+   
    #site {
       font-size: 35px;
    }
@@ -133,6 +147,7 @@
    
    .main {
       padding: 50px;
+      width: 100%;
    }
    
    p {
@@ -172,6 +187,7 @@
    }
    
    #site {
+      display: block;
       width: 100%;
       font-size: 40px;
       line-height: 1.5;
