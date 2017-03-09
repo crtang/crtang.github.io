@@ -49,7 +49,7 @@
 .ct {
    margin: auto;
    padding: 50px 0px 0px 0px;
-   width: 50%;
+   width: 66%;
    text-align: center;
    color: #ffffff;
 }
@@ -57,6 +57,7 @@
 .svgh {
    margin: 0px;
    padding: 10px;
+   width: 50%;
 }
 
 .main {
@@ -104,10 +105,10 @@
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
    margin: 0px;
-   padding: 0px 0px 20px 0px;
+   padding: 0px 0px 0px 15px;
    width: 100%;
    height: 0px;
-   font: 45px 'Gotham-Light', serif;
+   font: 30px 'Gotham-Light', serif;
    line-height: 1.5;
 }
 
@@ -154,25 +155,31 @@
 }
 
 @media only screen and (min-width: 800px) {
+   .sidebar {
+      margin: 0px;
+      padding: 100px 20px 0px 150px;
+      width: 15%;
+   }
+   
    .ct {
       display: inline-block;
-      padding: 100px 0px 10px 0px;
-      width: 15%;
-      height: 100%;
+      padding: 100px 100px 0px 10px;
+      width: 50%;
    }
    
    .svgh {
       display: inline; /* progressive enhancement */
-      width: 33%;
+      width: 50%;
    }
    
    #site {
-      width: 66%;
-      font-size: 30px;
+      width: 100%;
+      font-size: 40px;
+      line-height: 1.5;
    }
    
    nav {
-      display: block;
+      display: inline;
       width: 100%;
    }
    
