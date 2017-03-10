@@ -80,7 +80,7 @@
 .foot {
    margin: 0px;
    padding: 20px 0px 20px 0px;
-   font: 12px 'Gotham-Light', serif;
+   font: 12px 'Gotham-Thin', serif;
 }
 
 
@@ -116,7 +116,7 @@
    padding: 0px 0px 0px 15px;
    width: 100%;
    height: 0px;
-   font: 35px 'Gotham-Light', serif;
+   font: 35px 'Gotham-Thin', serif;
    line-height: 1.5;
 }
 
@@ -229,7 +229,7 @@ h1 {
 }
 
 p {
-   font: 20px 'Gotham-Light', sans-serif;
+   font: 20px 'Gotham-Thin', sans-serif;
    line-height: 1.5;
 }
 
@@ -264,7 +264,7 @@ footer {
    box-sizing: border-box;
    background-color: #000000;
    text-align: center;
-   font: 25px 'Gotham-Light', sans-serif;
+   font: 25px 'Gotham-Thin', sans-serif;
    color: #ffffff;
    z-index: 3;
 }
@@ -274,7 +274,7 @@ a.ft {
    margin: 0px;
    padding: 0px 10px 0px 10px;
    text-decoration: none;
-   font: 18px 'Montez', serif;
+   font: 25px 'Montez', serif;
    color: #ffffff;
 }
 
