@@ -49,15 +49,13 @@
 .ct {
    margin: auto;
    padding: 50px 0px 0px 0px;
-   width: 66%;
    text-align: center;
    color: #ffffff;
 }
 
 .svgh {
    margin: 0px;
-   padding: 10px;
-   width: 50%;
+   padding: 0px;
 }
 
 .main {
@@ -179,12 +177,10 @@
    
    .svgh {
       display: inline; /* progressive enhancement */
-      width: 50%;
    }
    
    #site {
-      display: block;
-      width: 100%;
+      display: inline-block;
       font-size: 40px;
       line-height: 1.5;
    }
