@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montez');
 
 @font-face {
+   font-family: Gotham-Light;
+   src: url('https://crtang.github.io/fonts/Gotham Thin 10.57.00 PM.TTF') format('truetype');
+}
+
+@font-face {
    font-family: Gotham-Thin;
    src: url('https://crtang.github.io/fonts/Gotham Thin 10.57.01 PM.TTF') format('truetype');
 }
@@ -230,7 +235,7 @@ h1 {
 }
 
 p {
-   font: 20px 'Gotham-Thin', sans-serif;
+   font: 20px 'Gotham-Light', sans-serif;
    line-height: 1.5;
 }
 
