@@ -58,7 +58,6 @@
 .ct {
    margin: auto;
    padding: 50px 0px 0px 0px;
-   text-align: center;
    color: #ffffff;
 }
 
@@ -140,9 +139,17 @@
       -webkit-flex-flow: row wrap;
       flex-flow: row wrap;
    }
+   
+   .ct {
+      text-align: center;
+   }
 }
 
 @media only screen and (min-width: 680px) and (max-width: 799px) {
+   .ct {
+      text-align: center;
+   }
+   
    .main {
       padding: 50px 100px 50px 100px;
    }
@@ -156,9 +163,9 @@
    }
    
    .ct {
+      margin-bottom: 10px;
       padding: 0px;
       height: 33%;
-      text-align: left;
    }
    
    .svgh {
