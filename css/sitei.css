@@ -160,13 +160,12 @@
    .sidebar {
       margin: 100px 20px 0px 50px;
       padding: 0px;
-      width: 33%;
+      /*width: 33%;*/
    }
    
    .ct {
       margin-bottom: 10px;
       padding: 0px;
-      height: 33%;
    }
    
    .svgh {
@@ -181,7 +180,7 @@
    }
    
    .siteii {
-      display: inline-block;
+      display: inline;
       font: 40px 'Gotham-Thin', sans-serif;
       line-height: 1.5;
    }
@@ -197,8 +196,9 @@
    }
    
    .main {
-      padding: 50px 100px 50px 100px;
-      width: 100%;
+      margin: 50px 100px 50px 100px;
+      padding: 0px;
+      /*width: 100%;*/
    }
    
    p {
