@@ -41,7 +41,7 @@
    text-align: center;
 }
 
-.align img, .align h1 {
+.align {
    display: inline-block;
    vertical-align: top;
 }
