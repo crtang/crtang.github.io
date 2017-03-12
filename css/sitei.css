@@ -42,8 +42,8 @@
 }
 
 .align img, .align h1 {
-   display: inline;
-   vertical-align: text-top;
+   display: inline-block;
+   vertical-align: top;
 }
 
 .sidebar {
@@ -65,6 +65,10 @@
    display: none;
    margin: 0px;
    padding: 0px;
+}
+
+.siteii {
+   display: none;
 }
 
 .main {
@@ -179,6 +183,13 @@
       vertical-align: text-top;
    }
    
+   .siteii {
+      display: inline-block;
+      font-size: 40px;
+      line-height: 1.5;
+      vertical-align: text-top;
+   }
+   
    nav {
       margin: 20px 0px 0px 20px;
    }
@@ -242,7 +253,7 @@ h1 {
 }
 
 p {
-   font: 20px 'Gotham-Light', sans-serif;
+   font: 16px 'Gotham-Light', sans-serif;
    line-height: 1.5;
 }
 
