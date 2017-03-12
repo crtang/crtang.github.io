@@ -186,6 +186,8 @@
    nav.full {
       display: inline-block;
       margin: 0px;
+      padding-bottom: 40px;
+      text-align: right;
    }
    
    nav.full a {
@@ -224,7 +226,6 @@ nav {
    margin: 0px;
    padding: 5px;
    width: 100%;
-   text-align: center;
    font: 25px 'Montez', sans-serif;
 }
 
@@ -232,6 +233,7 @@ nav a {
    display: inline-block;
    margin: 0px;
    padding: 10px;
+   text-align: center;
 }
 
 .full {
