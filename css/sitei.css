@@ -220,7 +220,7 @@ body {
 }
 
 nav {
-   display: inline-block;
+   display: inline;
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
    margin: 0px;
@@ -230,7 +230,7 @@ nav {
 }
 
 nav a {
-   display: inline-block;
+   display: inline;
    margin: 0px;
    padding: 10px;
    text-align: center;
