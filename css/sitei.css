@@ -158,9 +158,9 @@
 
 @media only screen and (min-width: 800px) {
    .sidebar {
-      margin: 100px 20px 0px 50px;
-      padding: 0px;
-      /*width: 33%;*/
+      margin: 0px 10px 0px 0px;
+      padding: 100px 20px 0px 50px;
+      width: 33%;
    }
    
    .ct {
@@ -199,7 +199,7 @@
       margin: 0px;
       padding: 50px 75px 50px 75px;
       box-sizing: border-box;
-      /*width: 100%;*/
+      width: 100%;
    }
    
    p {
