@@ -177,7 +177,7 @@
    }
    
    #site {
-      display: inline-block;
+      display: none;
       font-size: 40px;
       line-height: 1.5;
       vertical-align: text-top;
@@ -185,9 +185,8 @@
    
    .siteii {
       display: inline-block;
-      font-size: 40px;
+      font: 40px 'Gotham-Thin', sans-serif;
       line-height: 1.5;
-      vertical-align: text-top;
    }
    
    nav {
