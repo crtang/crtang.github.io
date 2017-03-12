@@ -109,14 +109,6 @@
    color: #b2293f;
 }
 
-/*#svg-div {
-   position: relative;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   margin: auto;
-}*/
-
 #site {
    display: inline;
    -webkit-flex-flow: row wrap;
@@ -187,12 +179,16 @@
       line-height: 1.5;
    }
    
-   nav {
+   nav.mobile {
+      visibility: none;
+   }
+   
+   nav.full {
       margin: 0px;
    }
    
-   nav a {
-      display: block;
+   nav.full a {
+      display: inline-block;
       font-size: 30px;
       text-align: right;
    }
@@ -237,8 +233,12 @@ nav a {
    padding: 10px;
 }
 
-nav a:hover {
-   color: #b2293f;
+nav.mobile {
+   display: inline-block;
+}
+
+nav.full {
+   display: none;
 }
 
 section {
