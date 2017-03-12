@@ -180,10 +180,11 @@
    }
    
    nav.mobile {
-      visibility: none;
+      display: none;
    }
    
    nav.full {
+      display: inline-block;
       margin: 0px;
    }
    
@@ -233,11 +234,7 @@ nav a {
    padding: 10px;
 }
 
-nav.mobile {
-   display: inline-block;
-}
-
-nav.full {
+.full {
    display: none;
 }
 
