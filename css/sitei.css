@@ -26,6 +26,7 @@
    display: inline-flex;
    /*-webkit-flex-flow: row wrap;
    flex-flow: row wrap;*/
+   width: 100%;
 }
  
 .flex-container > * {
@@ -139,11 +140,6 @@
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 679px) {
-   .flex-container {
-      -webkit-flex-flow: row wrap;
-      flex-flow: row wrap;
-   }
-   
    .ct {
       padding: 20px;
       text-align: center;
