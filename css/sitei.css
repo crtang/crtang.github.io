@@ -138,11 +138,19 @@
       padding: 20px;
       text-align: center;
    }
+   
+   #site {
+      display: inline;
+   }
 }
 
 @media only screen and (min-width: 680px) and (max-width: 799px) {
    .ct {
       text-align: center;
+   }
+   
+   #site {
+      display: inline;
    }
    
    .main {
