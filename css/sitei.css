@@ -193,9 +193,13 @@
    
    nav.full {
       display: inline-block;
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
       margin: 0px;
       padding-bottom: 40px;
+      width: 100%;
       text-align: right;
+      font: 25px 'Montez', sans-serif;
    }
    
    nav.full a {
@@ -227,7 +231,7 @@ body {
    background-color: #ffffff;
 }
 
-nav {
+nav.mobile {
    display: inline;
    -webkit-margin-before: 0em;
    -webkit-margin-after: 0em;
@@ -237,7 +241,7 @@ nav {
    font: 25px 'Montez', sans-serif;
 }
 
-nav a {
+nav.mobile a {
    display: inline;
    margin: 0px;
    padding: 10px;
