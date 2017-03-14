@@ -60,6 +60,7 @@
    margin: auto;
    padding: 50px 0px 0px 0px;
    color: #ffffff;
+   width: 100%
 }
 
 .svgh {
@@ -168,6 +169,7 @@
    .ct {
       margin-bottom: 10px;
       padding: 0px;
+      width: auto;
    }
    
    .svgh {
