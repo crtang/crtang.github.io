@@ -22,10 +22,6 @@
 /* CLASSES */
 
 .flex-container {
-   display: -webkit-inline-flex;
-   display: inline-flex;
-   /*-webkit-flex-flow: row wrap;
-   flex-flow: row wrap;*/
    width: 100%;
 }
  
@@ -57,10 +53,10 @@
 }
 
 .ct {
-   margin: auto;
+   margin: 0px;
    padding: 50px 0px 0px 0px;
    color: #ffffff;
-   width: 100%
+   text-align: center;
 }
 
 .svgh {
@@ -135,21 +131,12 @@
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 679px) {
-   .ct {
-      padding: 20px;
-      text-align: center;
-   }
-   
    #site {
       display: inline;
    }
 }
 
 @media only screen and (min-width: 680px) and (max-width: 799px) {
-   .ct {
-      text-align: center;
-   }
-   
    #site {
       display: inline;
    }
@@ -160,6 +147,12 @@
 }
 
 @media only screen and (min-width: 800px) {
+   .flex-container {
+      display: -webkit-inline-flex;
+      display: inline-flex;
+      /*-webkit-flex-flow: row wrap;
+      flex-flow: row wrap;*/
+   }
    .sidebar {
       margin: 0px 10px 0px 0px;
       padding: 100px 20px 0px 50px;
@@ -209,19 +202,20 @@
       text-align: right;
    }*/
    
-   nav {
+   nav.mobile {
       display: inline-block;
-      -webkit-margin-before: 0em;
+      /*-webkit-margin-before: 0em;
       -webkit-margin-after: 0em;
-      margin: 0px;
+      margin: 0px;*/
       padding-bottom: 40px;
-      width: 100%;
+      /*width: 100%;*/
       text-align: right;
-      font: 25px 'Montez', sans-serif;
+      /*font: 25px 'Montez', sans-serif;*/
    }
    
-   nav a {
+   nav.mobile a {
       display: inline-block;
+      margin-bottom: 50px;
       font-size: 30px;
       text-align: right;
    }
@@ -256,6 +250,7 @@ nav.mobile {
    margin: 0px;
    padding: 5px;
    width: 100%;
+   text-align: center;
    font: 25px 'Montez', sans-serif;
 }
 
