@@ -153,8 +153,8 @@
    .flex-container {
       display: -webkit-inline-flex;
       display: inline-flex;
-      /*-webkit-flex-flow: row wrap;
-      flex-flow: row wrap;*/
+      -webkit-flex-flow: nowrap;
+      flex-flow: nowrap;
    }
    .sidebar {
       margin: 0px 10px 0px 0px;
