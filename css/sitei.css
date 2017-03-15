@@ -22,6 +22,8 @@
 /* CLASSES */
 
 .flex-container {
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
    width: 100%;
 }
  
