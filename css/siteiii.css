@@ -215,6 +215,7 @@ section {
 h1 {
    font: 35px 'Montez', serif;
    line-height: 1.5;
+   text-align: center;
 }
 
 p {
