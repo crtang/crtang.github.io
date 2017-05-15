@@ -1,1 +1,279 @@
+{margin: 0; padding: 0;}
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Montez');
+
+@font-face {
+   font-family: Gotham-Light;
+   src: url('https://crtang.github.io/fonts/Gotham Light 10.57.00 PM.TTF') format('truetype');
+}
+
+@font-face {
+   font-family: Montez;
+   src: url('https://fonts.googleapis.com/css?family=Montez');
+}
+
+
+/* CLASSES */
+
+.flex-container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+ 
+.flex-container > * {
+   padding: 50px;
+}
+
+.head {
+   margin: auto;
+   padding: 10px 0px 10px 0px;
+}
+
+.center {
+   text-align: center;
+}
+
+.align img, .align h1 {
+   display: inline;
+   vertical-align: text-top;
+}
+
+.pad {
+   margin: 0px;
+   padding: 0px 0px 20px 0px;
+}
+
+.ct {
+   margin: auto;
+   padding: 0px;
+   width: 50%;
+   text-align: center;
+   color: #ffffff;
+}
+
+.svgh {
+   margin: 0px;
+   padding: 10px;
+}
+
+.main {
+   margin: 0px;
+   box-sizing: border-box;
+   width: 100%;
+   background-color: #12a38c;
+}
+
+.footer {
+   margin: 0px;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.foot {
+   margin: 0px;
+   padding: 20px 0px 20px 0px;
+   font: 12px 'Gotham-Light', serif;
+}
+
+
+/* IDS */
+
+/*#welcome {
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   height: 600px;
+   background-color: #000000;
+   font: 30px 'Montez', sans-serif;
+   color: #ffffff;
+}*/
+
+/*#svg-div {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin: auto;
+}*/
+
+#site {
+   display: inline;
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   margin: 0px;
+   padding: 0px 0px 20px 0px;
+   width: 100%;
+   height: 0px;
+   font: 45px 'Montez', serif;
+   line-height: 1.5;
+}
+
+#about, #contact {
+   background-color: #99cc00;
+}
+
+#portfolio {
+   color: #4e4a4e;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 679px) {
+   #site {
+      font-size: 35px;
+   }
+   
+   .svgh {
+      display: none;
+   }
+   
+   .main {
+      padding: 50px;
+   }
+   
+   p {
+      font-size: 20px;
+   }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 799px) {
+   .svgh {
+      display: none;
+   }
+   
+   .main {
+      padding: 50px 100px 50px 100px;
+   }
+   
+   p {
+      font-size: 20px;
+   }
+}
+
+@media only screen and (min-width: 800px) {
+   .head {
+      padding: 100px 0px 10px 0px;
+   }
+   
+   .ct {
+      height: 150px;
+   }
+   
+   .svgh {
+      display: inline; /* progressive enhancement */
+   }
+   
+   .main {
+      padding: 50px 150px 50px 150px;
+   }
+   
+   p {
+      font-size: 16px;
+   }
+}
+
+
+/* BODY */
+
+body {
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   box-sizing: border-box;
+   background-color: #ffffff;
+}
+
+nav {
+   display: inline-block;
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   margin: 0px;
+   padding: 20px;
+   width: 100%;
+   font: 15px /*'Montez',*/ 'Gotham-Light', sans-serif;
+}
+
+nav a {
+   display: inline-block;
+   margin: 0px;
+   padding: 10px;
+}
+
+nav a:hover {
+   color: #12a38c;
+}
+
+section {
+   margin: 0px;
+   padding: 0px;
+}
+
+h1 {
+   font: 35px 'Montez', serif;
+   line-height: 1.5;
+}
+
+p {
+   font-family: 'Gotham-Light', sans-serif;
+   line-height: 1.5;
+}
+
+a, a:link {
+   text-decoration: none;
+   color: #4e4a4e;
+}
+
+a:visited {
+   text-decoration: none;
+   color: #4e4a4e;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+a:active {
+   text-decoration: none;
+   color: #4e4a4e;
+}
+
+
+/* FOOTER */
+
+footer {
+   display: inline-block;
+   margin: 0px;
+   padding: 20px;
+   width: 100%;
+   box-sizing: border-box;
+   background-color: #000000;
+   text-align: center;
+   font: 25px 'Gotham-Light', sans-serif;
+   color: #ffffff;
+   z-index: 3;
+}
+
+a.ft {
+   display: inline;
+   margin: 0px;
+   padding: 0px 10px 0px 10px;
+   text-decoration: none;
+   font: 18px 'Montez', serif;
+   /*color: #12a38c;*/
+   color: #595959;
+}
+
+a.ft:hover {
+   /*color: #ffffff;*/
+   color: #12a38c;
+}
+
+
+
+
 
