@@ -113,10 +113,15 @@
 }
 
 #about, #contact {
+   margin: 0px;
+   box-sizing: border-box;
+   width: 100%;
    background-color: #ffffff;
 }
 
 #portfolio {
+   margin: 0px;
+   box-sizing: border-box;
    width: 100%;
    background-color: #946c1e;
 }
