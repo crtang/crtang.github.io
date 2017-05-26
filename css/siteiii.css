@@ -137,7 +137,7 @@
       display: none;
    }
    
-   .main {
+   .main, #about, #portfolio, #contact {
       padding: 50px;
    }
    
@@ -151,7 +151,7 @@
       display: none;
    }
    
-   .main {
+   .main, #about, #portfolio, #contact {
       padding: 50px 100px 50px 100px;
    }
    
@@ -173,7 +173,7 @@
       display: inline; /* progressive enhancement */
    }
    
-   .main {
+   .main, #about, #portfolio, #contact {
       padding: 50px 150px 50px 150px;
    }
    
