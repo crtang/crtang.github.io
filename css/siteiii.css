@@ -64,7 +64,7 @@
    margin: 0px;
    box-sizing: border-box;
    width: 100%;
-   background-color: #d5b22a;
+   background-color: #dcacb3;
 }
 
 .footer {
@@ -124,7 +124,7 @@
    box-sizing: border-box;
    width: 100%;
    /*background-color: #947c1e;*/
-   background-color: #d5b22a;
+   background-color: #dcacb3;
 }
 
 
@@ -273,12 +273,12 @@ a.ft {
    padding: 0px 10px 0px 10px;
    text-decoration: none;
    font: 18px 'Montez', serif;
-   color: #a11731;
+   color: #595959;
 }
 
 a.ft:hover {
    /*color: #ffffff;*/
-   color: #12a38c;
+   color: #a11731;
 }
 
 
