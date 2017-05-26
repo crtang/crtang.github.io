@@ -210,7 +210,7 @@ nav a {
 }
 
 nav a:hover {
-   color: #12a38c;
+   color: #a11731;
 }
 
 section {
@@ -272,8 +272,7 @@ a.ft {
    padding: 0px 10px 0px 10px;
    text-decoration: none;
    font: 18px 'Montez', serif;
-   /*color: #12a38c;*/
-   color: #595959;
+   color: #a11731;
 }
 
 a.ft:hover {
