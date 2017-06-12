@@ -137,10 +137,10 @@ nav {
    display: inline-block;
    /*-webkit-margin-before: 0em;
    -webkit-margin-after: 0em;*/
-   margin: 0;
-   padding: 20px;
+   margin: 20px;
+   padding: 0;
    width: 100%;
-   font: 15px /*'Montez',*/ 'Gotham-Light', sans-serif;
+   font: 15px 'Gotham-Light', sans-serif;
 }
 
 nav a {
