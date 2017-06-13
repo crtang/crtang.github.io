@@ -148,6 +148,7 @@ a.ft:hover {
 .svgh {
    margin: 0;
    padding: 0;
+   display: block;
 }
 
 .main {
