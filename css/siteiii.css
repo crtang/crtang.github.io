@@ -157,7 +157,7 @@ a.ft:hover {
 .foot {
    margin: 0;
    padding: 20px 0 20px 0;
-   font: 12px 'Gotham-Light', serif;
+   font: 16px 'Gotham-Light', serif;
 }
 
 
@@ -168,7 +168,7 @@ a.ft:hover {
    -webkit-margin-after: 0em;
    margin: 0;
    padding: 0;
-   font: 45px 'Cormorant-Regular', serif;
+   font: 42px 'Cormorant-Regular', serif;
    line-height: 1.5;
 }
 
@@ -212,7 +212,7 @@ a.ft:hover {
    }
    
    p {
-      font-size: 14px;
+      font-size: 16px;
    }
 }
 
@@ -234,7 +234,7 @@ a.ft:hover {
    }
    
    p {
-      font-size: 14px;
+      font-size: 16px;
    }
 }
 
