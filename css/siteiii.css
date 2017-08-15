@@ -2,16 +2,14 @@
 
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Montez');
+@font-face {
+   font-family: Cormorant-Regular;
+   src: url('https://crtang.github.io/fonts/Cormorant-Regular.ttf') format('truetype');
+}
 
 @font-face {
    font-family: Gotham-Light;
    src: url('https://crtang.github.io/fonts/Gotham Light 10.57.00 PM.TTF') format('truetype');
-}
-
-@font-face {
-   font-family: Montez;
-   src: url('https://fonts.googleapis.com/css?family=Montez');
 }
 
 
@@ -40,7 +38,7 @@ nav {
    margin: 10px 20px 10px 10px;
    padding: 0;
    width: 100%;
-   font: 15px 'Gotham-Light', sans-serif;
+   font: 16px 'Gotham-Light', sans-serif;
 }
 
 nav a {
@@ -60,13 +58,13 @@ section {
 }
 
 h1 {
-   font: 35px 'Montez', serif;
+   font: 32px 'Cormorant-Regular', serif;
    line-height: 1.5;
    text-align: center;
 }
 
 p {
-   font: 22px 'Gotham-Light', sans-serif;
+   font: 24px 'Gotham-Light', sans-serif;
    line-height: 1.5;
 }
 
@@ -100,7 +98,7 @@ a.ft {
    margin: 0;
    padding: 0 10px 0 10px;
    text-decoration: none;
-   font: 25px 'Montez', serif;
+   font: 24px 'Cormorant-Regular', serif;
    color: #595959;
 }
 
