@@ -70,12 +70,7 @@ p {
    line-height: 1.5;
 }
 
-a, a:link {
-   text-decoration: none;
-   color: #4e4a4e;
-}
-
-a:visited {
+a, a:link, a:active, a:visited {
    text-decoration: none;
    color: #4e4a4e;
 }
@@ -83,11 +78,6 @@ a:visited {
 a:hover {
    text-decoration: none;
    color: #ffffff;
-}
-
-a:active {
-   text-decoration: none;
-   color: #4e4a4e;
 }
 
 
@@ -207,10 +197,6 @@ a.ft:hover {
       font-size: 35px;
    }
    
-   .svgh {
-      width: 30%;
-   }
-   
    .main, #about, #portfolio, #contact {
       padding: 50px;
    }
@@ -221,10 +207,6 @@ a.ft:hover {
 }
 
 @media only screen and (min-width: 680px) and (max-width: 799px) {
-   .svgh {
-      display: none;
-   }
-   
    .main, #about, #portfolio, #contact {
       padding: 50px 100px 50px 100px;
    }
