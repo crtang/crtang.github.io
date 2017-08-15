@@ -2,11 +2,11 @@
 
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Montez');
 
 @font-face {
-   font-family: Vidaloka;
-   src: url('https://fonts.googleapis.com/css?family=Vidaloka');
+   font-family: Montez;
+   src: url('https://fonts.googleapis.com/css?family=Montez');
 }
 
 @font-face {
@@ -65,7 +65,7 @@ section {
 }
 
 h1 {
-   font: 32px 'Vidaloka', serif;
+   font: 32px 'Montez', serif;
    line-height: 1.5;
    text-align: center;
 }
@@ -106,7 +106,7 @@ a.ft {
    margin: 0;
    padding: 0 10px 0 10px;
    text-decoration: none;
-   font: 24px 'Vidaloka', serif;
+   font: 24px 'Montez', serif;
    color: #595959;
 }
 
@@ -175,7 +175,7 @@ a.ft:hover {
    -webkit-margin-after: 0em;
    margin: 0;
    padding: 0;
-   font: 42px 'Vidaloka', serif;
+   font: 42px 'Montez', serif;
    line-height: 1.5;
 }
 
