@@ -2,16 +2,9 @@
 
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Montez');
-
 @font-face {
    font-family: Montez;
-   src: url('https://fonts.googleapis.com/css?family=Montez');
-}
-
-@font-face {
-   font-family: Cormorant-Regular;
-   src: url('https://crtang.github.io/fonts/Cormorant-Regular.ttf') format('truetype');
+   src: url('https://crtang.github.io/fonts/montez.regular.ttf') format('truetype');
 }
 
 @font-face {
