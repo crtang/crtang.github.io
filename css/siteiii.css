@@ -76,7 +76,6 @@ a, a:link, a:active, a:visited {
 a:hover {
    text-decoration: none;
    color: #ffffff;
-   font-weight: bold;
 }
 
 
@@ -106,7 +105,6 @@ a.ft {
 a.ft:hover {
    /*color: #ffffff;*/
    color: #a11731;
-   font-weight: bold;
 }
 
 
