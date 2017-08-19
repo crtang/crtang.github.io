@@ -651,6 +651,10 @@ a.ft:hover {
       font-size: 35px;
    }
    
+   .svgh {
+      width: 100%;
+   }
+   
    .main, #about, #portfolio, #contact {
       padding: 50px;
    }
