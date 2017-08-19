@@ -592,7 +592,7 @@ a.ft:hover {
 .svgh {
    margin: 0;
    padding: 0;
-   display: block;
+   display: inline;
 }
 
 .main {
@@ -677,10 +677,6 @@ a.ft:hover {
    
    .ct {
       height: 150px;
-   }
-   
-   .svgh {
-      display: inline;
    }
    
    .main, #about, #portfolio, #contact {
