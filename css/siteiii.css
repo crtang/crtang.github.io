@@ -459,6 +459,11 @@ template {
 /* FONTS */
 
 @font-face {
+   font-family: STXingkai;
+   src: url('https://github.com/crtang/crtang.github.io/blob/master/fonts/STXingkai.ttf') format('truetype');
+}
+
+@font-face {
    font-family: Montez;
    src: url('https://crtang.github.io/fonts/montez.regular.ttf') format('truetype');
 }
