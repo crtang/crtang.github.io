@@ -631,6 +631,11 @@ a.ft:hover {
    line-height: 1.5;
 }
 
+#centered {
+   margin: -6px;
+   padding: 0px;
+}
+
 #about, #contact {
    margin: 0;
    box-sizing: border-box;
