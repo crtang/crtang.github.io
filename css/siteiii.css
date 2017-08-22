@@ -632,8 +632,8 @@ a.ft:hover {
 }
 
 #centered {
-   margin: -6px;
-   padding: 0px;
+   margin-left: -6px;
+   padding: 10px 10px 10px 0px;
 }
 
 #about, #contact {
