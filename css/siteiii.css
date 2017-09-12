@@ -594,10 +594,16 @@ a.ft:hover {
    text-align: center;
 }
 
-.svgh {
+.svgb {
    margin: 0;
    padding: 0;
    display: inline;
+}
+
+.svgs {
+   margin: 0;
+   padding: 0;
+   display: none;
 }
 
 .main {
@@ -661,7 +667,12 @@ a.ft:hover {
       font-size: 35px;
    }
    
-   .svgh {
+   .svgb {
+      display: none;
+   }
+   
+   .svgs {
+      display: inline;
       width: 100%;
    }
    
