@@ -473,6 +473,11 @@ template {
    src: url('https://crtang.github.io/fonts/Gotham Light 10.57.00 PM.TTF') format('truetype');
 }
 
+@font-face {
+   font-family: Gotham-Bold;
+   src: url('https://crtang.github.io/fonts/GOTHAM-BOLD.TTF') format('truetype');
+}
+
 
 /* BODY */
 
@@ -527,6 +532,10 @@ h1 {
 p {
    font: 24px 'Gotham-Light', sans-serif;
    line-height: 1.5;
+}
+
+p > strong, b {
+   font: 24px 'Gotham-Bold', sans-serif;
 }
 
 a, a:link, a:active, a:visited {
