@@ -460,26 +460,22 @@ template {
 
 @font-face {
   font-family: STXingkai;
-  /*src: url('https://github.com/crtang/crtang.github.io/blob/master/fonts/STXingkai.ttf') format('truetype');*/
-  src: url('file:///Users/avollea/Documents/coding/website/fonts/STXingkai.ttf');
+  src: url('https://github.com/crtang/crtang.github.io/blob/master/fonts/STXingkai.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Montez;
-  /*src: url('https://crtang.github.io/fonts/montez.regular.ttf') format('truetype');*/
-  src: url('file:///Users/avollea/Documents/coding/website/fonts/montez.regular.ttf');
+  src: url('https://crtang.github.io/fonts/montez.regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Gotham-Light;
-  /*src: url('https://crtang.github.io/fonts/Gotham Light 10.57.00 PM.TTF') format('truetype');*/
-  src: url('file:///Users/avollea/Documents/coding/website/fonts/Gotham Light.TTF');
+  src: url('https://crtang.github.io/fonts/Gotham Light.TTF') format('truetype');
 }
 
 @font-face {
   font-family: Gotham-Medium;
-  /*src: url('https://crtang.github.io/fonts/Gotham Medium.TTF') format('truetype');*/
-  src: url('file:///Users/avollea/Documents/coding/website/fonts/Gotham Medium.TTF');
+  src: url('https://crtang.github.io/fonts/Gotham Medium.TTF') format('truetype');
 }
 
 
