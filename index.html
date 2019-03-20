@@ -2,54 +2,72 @@
 <html>
    <head>
       <link href="https://github.com/necolas/normalize.css/blob/master/normalize.css" rel="stylesheet" type="text/css">
-      <link href="../css/siteiii.css" rel="stylesheet" type="text/css">
+      <link href="../css/style.css" rel="stylesheet" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="../scripts/script.js"></script>
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       
       <title>
-         Carol Tang | Web Designer &amp; Developer
+         Carol Tang | QA Engineer
       </title>
    </head>
 
    <body>     
       <div class="flex-container">
-         <header>
-            <a class="head center" href="https://crtang.github.io" style="color: #000000;">
-               <!--<img class="svgb" src="https://crtang.github.io/images/ctlogo-big.png" />
-               <img class="svgs" src="https://crtang.github.io/images/ctlogo-small.png" />-->
-               <h1 id="name">
-                  Carol Tang
-               </h1>
+         <nav id="screen">
+            <a href="#">
+               <div id="menu">
+                  <span class="circle">
+                     <i class="change bar1">__</i>
+                     <i class="change bar2">__</i>
+                     <i class="change bar3">__</i>
+                  </span>
+               </div>
             </a>
 
-            <nav class="mobile center">
-               <a id="centered" href="#about">
-                  about
-               </a>
-               <a href="#portfolio">
-                  resumé & portfolio
-               </a>
-               <a href="#contact">
-                  contact
-               </a>
+            <div class="overlay">
+               <div class="sm-menu">
+                  <ul>
+                     <li>
+                        <a class="menu-item" href="#about">about</a>
+                     </li>
+                     <li>
+                        <a class="menu-item" href="#portfolio">resumé & portfolio</a>
+                     </li>
+                     <li>
+                        <a class="menu-item" href="#contact">contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+
+         <header>
+            <h1 id="name">
+               Carol Tang
+            </h1>
+
+            <nav class="center">
+               <p>
+                  <a href="#about">about</a> • <a href="#portfolio">resumé & portfolio</a> • <a href="#contact">contact</a>
+               </p>
             </nav>
          </header>
          
-         <!--<section class="main center">
+         <section class="main center">
+            <img class="profile" src="../images/Carol Tang headshot.png" />
             <p>
                My name is Carol Tang.
             </p>
             <p>
-               I'm a QA Engineer with a love for front-end development.
+               I'm a QA Engineer, unofficially known as bug hunter and customer advocate.
             </p>
             <p>
-               Officially my job is to design and implement sleek, responsive, dynamic, and pixel-perfect websites.
+               I'm all about details, quality, and learning, but I keep in mind the big picture as well.
             </p>
-            <p>
-               Which really means that I bring you to life on the web.
-            </p>-->
-         <!--</section>-->
+         </section>
          
          <section id="about">
             <h1>
@@ -57,9 +75,12 @@
             </h1>
          
             <p>
-               I'm a QA Engineer who graduated August 2017 with a B.A. in linguistics from UC Berkeley and some experience 
+               I graduated August 2017 with a B.A. in linguistics from UC Berkeley and some experience 
                in programming, courtesy of the time when I was an intended computer science major. In my free time I like 
-               to paint digitally, learn languages, and play jigsaw puzzles.
+               to paint digitally, learn languages, play jigsaw puzzles, and improve my web dev skills.
+            </p>
+            <p>
+               <strong>Currently:</strong> learning how to poll asynchronous web apps for automated testing results, upping coding skills, and refreshing CS knowledge.
             </p>
          </section>
          
@@ -68,23 +89,63 @@
                resumé
             </h1>
             
-            <p><strong>QA Test Engineer</strong> | <strong>March 2018 - February 2019</strong></p>
-            <p>HydroPoint Data Systems | Petaluma, CA</p>
+            <div id="resume">
+               <div class="item">
+                  <p><strong>QA Test Engineer</strong></p>
+                  <p><strong>March 2018 - February 2019</strong></p>
+                  <p>HydroPoint Data Systems</p>
+                  <p>Petaluma, CA</p>
+                  <br />
+                  <button class="show-more">More ></button>
+                  <div class="hide">
+                     <p>I was mostly a manual tester, but I did do some automation with Selenium and Python in Pycharm. At HydroPoint I:</p>
+                     <ul>
+                        <li>Designed and implemented black box, sanity, smoke, and regression test strategies,</li>
+                        <li>Developed deep expertise in company products (3 web applications and multiple firmware versions),</li>
+                        <li>Documented test cases with the TestRail test case management application,</li>
+                        <li>Thoroughly explained and documented defects via the Jira issue tracking system,</li>
+                        <li>Performed pre-release preparations and post-release sanity testing,</li>
+                        <li>Collaborated with the broader engineering team to identify, understand, and resolve the root causes of defects and customer escalations, and </li>
+                        <li>Configured and maintained up to 4 test environments.</li>
+                     </ul>
+                     <p>
+                        Automated testing at HydroPoint was a bit of a struggle for me, but I learned that it was all due to asychronous data and not my code. I didn't get very far on learning to how poll a site for results, but I hope to do so before my next job.
+                     </p>
+                  </div>
+               </div>
+               <div class="item">
+                  <p><strong>Web Design Volunteer Intern</strong></p>
+                  <p><strong>July 2016 - March 2018</strong></p>
+                  <p>Partnerships for Trauma Recovery</p>
+                  <p>Berkeley, CA</p>
+                  <br />
+                  <button class="show-more">More ></button>
+                  <div class="hide">
+                     <p>I was a core member of the organization's startup team. Between academics and club activities I:</p>
+                     <ul>
+                        <li>Standardized brand guidelines to unify design,</li>
+                        <li>Redesigned the Our Team page to improve UX/UI and maintain visitors’ attention,</li>
+                        <li>Designed and hand-coded the What’s New and Feature boxes on home page to increase user engagement and transparency about the latest news from the organization,</li>
+                        <li>Inspected site design regularly to minimize discrepancies, and</li>
+                        <li>Updated the blog to keep partners and supporters updated on the organization.</li>
+                     </ul>
+                     <p>
+                        Not only did I keep the organization's website up-to-date with current web design trends and standards, the new designs garnered praise from site visitors and increased interest from potential partners and supporters. It also gave me room to challenge myself. In half a summer, I learned how to code in jQuery, design and develop using UX and UI concepts, create traditional wireframes, code mockups, use browser developer tools, debug browser-specific problems, and work with people from all over the organization (and outside of it). This was all kind of terrifying, but I'm so glad I did it.
+                     </p>
+                  </div>
+               </div>
+            </div>
             
             <h1>
                portfolio
             </h1>
             
-            <a href="https://traumapartners.org/">
-               <p>
-                  Partnerships for Trauma Recovery: July 2016-March 2018
-               </p>
-            </a>
-            <a href="http://massaction.berkeley.edu/">
-               <p>
-                  Mass Action in the Nervous System: January 2016-May 2016
-               </p>
-            </a>
+            <p>
+               <a href="https://traumapartners.org/">Partnerships for Trauma Recovery: July 2016 - March 2018</a>
+            </p>
+            <p>
+               <a href="http://massaction.berkeley.edu/">Mass Action in the Nervous System: January 2016 - May 2016</a>
+            </p>
             <p>
                UC Berkeley SWE Overnight Hosting Program: April 2015 (taken down)
             </p>
@@ -96,9 +157,8 @@
             </h1>
          
             <p>
-               I'm currently looking for full-time Quality Assurance positions, preferably in tech. If you would like 
-               to work with me, please contact me via LinkedIn. You can find me on 
-               <a href="https://github.com/crtang">Github</a> and <a href="https://www.linkedin.com/in/carolrtang">LinkedIn</a>.
+               I'm currently looking for full-time software Quality Assurance Engineer positions. If you would like 
+               to work with me, please contact me via <a href="https://www.linkedin.com/in/carolrtang">LinkedIn</a>. You can also find me on <a href="https://github.com/crtang">Github</a>.
             </p>
          </section>
             
@@ -107,15 +167,9 @@
 
    <footer>
       <p class="footer">
-         <a class="ft" href="about.html">
-           about
-         </a>
-         <a class="ft" href="portfolio.html">
-           portfolio
-         </a>
-         <a class="ft" href="contact.html">
-           contact
-         </a>
+         <a class="ft" href="#about">about</a>
+         <a class="ft" href="#portfolio">portfolio</a>
+         <a class="ft" href="#contact">contact</a>
       </p>
       <p class="foot center">
          &copy; Carol Tang 2019. All rights reserved.
