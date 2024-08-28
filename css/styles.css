@@ -1,0 +1,439 @@
+/* FONTS */
+@font-face {
+  font-family: 'Montez';
+  src: url('../fonts/montez/Montez-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham/Gotham/Gotham-Light.otf');
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/Gotham/Gotham/Gotham-Book.otf');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('../fonts/Gotham/Gotham/Gotham-Medium.otf');
+}
+
+
+
+/* GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Gotham', sans-serif;
+  --color-1: #52b69a;
+  --color-2: #97ab4d; /* a69a56 - olive green */
+  --color-3: #76c893; /* 61731f - dark olive green */
+  --color-4: #f0faf6; /* fcf8f2 - light peach */
+  --color-5: #e1ede9; /* fae1c6 - peach */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', serif;
+  color: var(--color-1);
+}
+
+nav,
+a,
+p {
+  font-family: 'Gotham', sans-serif;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  font-family: 'Gotham Bold', sans-serif;
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-3);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+strong {
+  font-family: 'Gotham Book', sans-serif;
+}
+
+
+
+/* HEADER */
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 1vh 5% 0;
+  box-shadow: var(--color-5) 0 5px 5px;
+  z-index: 25;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+#page-title {
+  margin: 3vh 0 2vh;
+  font-family: 'Montez', cursive;
+  letter-spacing: -0.8px;
+}
+
+#subtitle {
+  margin: 10px 0 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: var(--color-3);
+}
+
+nav {
+  padding: 2.5vh 5% 1vh;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-list li {
+  padding: 5px 10px 8px;
+  font-family: 'Gotham Bold', sans-serif;
+  font-size: 14px;
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+.nav-list a:hover li {
+  color: var(--color-3);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+
+
+/* MAIN */
+main {
+  padding: 7.5% 5%;
+  background-color: var(--color-4);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 7.5%;
+  box-shadow: -2px -2px 5px var(--color-5), 2px 2px 5px var(--color-5);
+  border: none;
+  border-radius: 25px;
+  padding: 5%;
+  background-color: #ffffff;
+}
+
+h2 {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+
+/* ABOUT */
+#profile-photo {
+  position: relative;
+  display: inline-block;
+  max-width: 40%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#about-blurb .highlight {
+  margin-bottom: 3vh;
+  text-align: center;
+  font-family: 'Montez', cursive;
+  font-size: 30px;
+  color: var(--color-3);
+}
+
+
+
+/* PROJECTS */
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#projects h2 {
+  display: block;
+  width: 100%;
+}
+
+#projects article {
+  margin-top: 5%;
+}
+
+#projects article figure .site {
+  display: flex;
+  justify-content: center;
+}
+
+.project img {
+  width: 80%;
+}
+
+figure a img {
+  margin-bottom: 30px;
+  box-shadow: -3px -3px 5px var(--color-5), 3px 3px 5px var(--color-5);
+}
+
+a img[alt] {
+  text-align: center;
+}
+
+figcaption {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 5vh;
+}
+
+figcaption h3 {
+  padding-bottom: 2.5vh;
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--color-3);
+}
+
+
+
+/* SKILLS */
+#skill-and-tool-icons {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#skills-header {
+  padding-bottom: 25px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fa-brands {
+  height: 7em;
+  margin: 5px;
+}
+
+#tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+.tool {
+  margin: 5px;
+}
+
+
+
+/* CONTACT */
+#contact {
+  margin-bottom: 3.75%;
+}
+
+#contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-line {
+  text-align: center;
+}
+
+.card-icon {
+  margin: 0 2.5%;
+  height: 7em;
+}
+
+
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border-top: 1px solid var(--color-5);
+  padding: 5%;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) and (max-width: 1199px) {
+  #subtitle {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  .nav-list {
+    justify-content: space-between;
+  }
+
+  .nav-list li {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  #about {
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  #about-blurb {
+    width: 50%;
+    margin-top: 25px;
+  }
+
+  #about-blurb .highlight {
+    font-size: 35px;
+  }
+
+  #profile-photo {
+    height: 30%;
+    margin: 5vh auto;
+  }
+
+  .icon-container {
+    width: unset;
+  }
+
+  .fa-brands, .card-icon {
+    height: 5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  #subtitle {
+    font-size: 23px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  nav {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+
+  .nav-list {
+    justify-content: space-around;
+  }
+
+  .nav-list li {
+    font-size: 16px;
+  }
+
+  main {
+    padding: 7.5% 10%;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  #about {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 5% 7.5%;
+  }
+
+  #about-blurb {
+    width: 65%;
+  }
+
+  #about-blurb .highlight {
+    font-size: 40px;
+  }
+
+  #profile-photo {
+    display: inline;
+    width: 25%;
+    margin: 5vh auto;
+  }
+
+  #about-blurb {
+    padding: 2.5%;
+  }
+
+  #fun-facts {
+    flex-flow: row wrap;
+  }
+
+  #fun-facts .wrapper {
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .lists {
+    width: 45%;
+  }
+
+  .project {
+    width: 45%;
+  }
+
+  figcaption {
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .icon-container {
+    width: unset;
+  }
+}
