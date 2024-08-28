@@ -1,185 +1,194 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <link href="https://crtang.github.io/css/style.css" rel="stylesheet" type="text/css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://crtang.github.io/scripts/script.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      
-      <title>
-         Carol Tang | QA Engineer
-      </title>
-   </head>
+    <title>Carol Tang | FE Developer</title>
 
-   <body>     
-      <div class="flex-container">
-         <nav id="screen">
-            <a href="#">
-               <div id="menu">
-                  <span class="circle">
-                     <i class="change bar1">__</i>
-                     <i class="change bar2">__</i>
-                     <i class="change bar3">__</i>
-                  </span>
-               </div>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="page-title">carol tang</h1>
+      <p id="subtitle">composer • developer • storyteller</p>
+
+      <nav>
+        <ul class="nav-list">
+          <a href="#about"><li>about</li></a>
+          <a href="#projects"><li>projects</li></a>
+          <a href="#skills"><li>skills</li></a>
+          <a href="#contact"><li>contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="about" class="card">
+        <h2>about</h2>
+
+        <img id="profile-photo" src="../photos/profile-photo.png" alt="Photo of Carol Tang" />
+
+        <article id="about-blurb">
+          <p class="highlight">hi • ça va • 你好!</p>
+
+          <p>I'm Carol, a former glorified software bug hunter and user
+            advocate turned front-end developer. I first dabbled in HTML5
+            and CSS3 when I was in high school and intended to study CS in
+            college, but wound up switching to linguistics because I enjoyed
+            the subject a lot. Afterwards I became a software QA engineer
+            due to my attention to detail. When I was recovering from bad
+            burnout, I remembered that my passion had always been in
+            designing and creating, so I signed up for a front-end bootcamp,
+            and the rest is history.
+          </p>
+
+          <p>
+            In my free time I love to read, write, draw digitally, and
+            compose music with Logic Pro X. (Find me on <a href="https://soundcloud.com/tangruiting" target="_blank">Soundcloud</a> 
+            if you like cinematic music!) I also exercise my perfect pitch and
+            decade of classical piano training every once in a while, learn
+            languages (or try to), or dabble in other arts and crafts.
+          </p>
+        </article>
+      </section>
+
+      <section id="projects" class="card">
+        <h2>projects</h2>
+
+        <article class="project">
+          <figure>
+            <a class="site" href="https://crtang.github.io/unplugged/" target="_blank">
+              <img src="Unplugged Retreat.png" alt="Screenshot of Unplugged website" />
             </a>
-
-            <div class="overlay">
-               <div class="sm-menu">
-                  <ul>
-                     <li>
-                        <a class="menu-item" href="#about">about</a>
-                     </li>
-                     <li>
-                        <a class="menu-item" href="#portfolio">resumé & portfolio</a>
-                     </li>
-                     <li>
-                        <a class="menu-item" href="#contact">contact</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-
-         <header>
-            <h1 id="name">
-               Carol Tang
-            </h1>
-
-            <nav class="center">
-               <p>
-                  <a href="#about">about</a> • <a href="#portfolio">resumé & portfolio</a> • <a href="#contact">contact</a>
-               </p>
-            </nav>
-         </header>
-         
-         <section class="main center">
-            <img class="profile" src="https://crtang.github.io/images/Carol Tang headshot.png" />
-            <p>
-               My name is Carol Tang.
-            </p>
-            <p>
-               I'm a QA Engineer, unofficially known as bug hunter and customer advocate.
-            </p>
-            <p>
-               I'm all about details, quality, and learning, but I keep in mind the big picture as well.
-            </p>
-         </section>
-         
-         <section id="about">
-            <h1>
-               about
-            </h1>
-         
-            <p>
-               I graduated August 2017 with a B.A. in linguistics from UC Berkeley and some experience 
-               in programming, courtesy of the time when I was an intended computer science major. In my free time I like 
-               to paint digitally, learn languages, play jigsaw puzzles, and improve my web dev skills.
-            </p>
-            <p>
-               <strong>Currently:</strong> learning how to poll asynchronous web apps for automated testing results, upping coding skills, and refreshing CS knowledge.
-            </p>
-         </section>
-         
-         <section id="portfolio">
-            <h1>
-               resumé
-            </h1>
             
-            <div id="resume">
-               <div class="item">
-                  <p><strong>QA Test Engineer</strong></p>
-                  <p><strong>March 2018 - February 2019</strong></p>
-                  <p>HydroPoint Data Systems</p>
-                  <p>Petaluma, CA</p>
-                  <br />
-                  <button class="show-more">More ></button>
-                  <div class="hide">
-                     <p>I was mostly a manual tester, but I did do some automation with Selenium and Python in Pycharm. At HydroPoint I:</p>
-                     <ul>
-                        <li>Designed and implemented black box, sanity, smoke, and regression test strategies,</li>
-                        <li>Developed deep expertise in company products (3 web applications and multiple firmware versions),</li>
-                        <li>Documented test cases with the TestRail test case management application,</li>
-                        <li>Thoroughly explained and documented defects via the Jira issue tracking system,</li>
-                        <li>Performed pre-release preparations and post-release sanity testing,</li>
-                        <li>Collaborated with the broader engineering team to identify, understand, and resolve the root causes of defects and customer escalations, and </li>
-                        <li>Configured and maintained up to 4 test environments.</li>
-                     </ul>
-                     <p>
-                        During the second half of my time at HydroPoint, I found that I was having a hard time prioritizing 
-                        my tasks and figuring out how to relate to my boss, and I upset a coworker due to this. However, I 
-                        learned a lot, like that my manager isn't going to roll their eyes at me because I asked what 
-                        they want me to finish first, and that if I'm having trouble with getting things done, I can ask my manager 
-                        for tips and let him know I'm struggling. This lesson is something I want to keep in mind at my next job.
-                     </p>
-                     <p>
-                        Additionally, automated testing at HydroPoint was rather difficult for me, and I learned (after a lot of Googling)
-                        that it was all due to asychronous data and not my code. I didn't get very far on learning to how 
-                        poll a site for results, but I plan on doing so before May comes.
-                     </p>
-                  </div>
-               </div>
-               <div class="item">
-                  <p><strong>Web Design Volunteer Intern</strong></p>
-                  <p><strong>July 2016 - March 2018</strong></p>
-                  <p>Partnerships for Trauma Recovery</p>
-                  <p>Berkeley, CA</p>
-                  <br />
-                  <button class="show-more">More ></button>
-                  <div class="hide">
-                     <p>I was a core member of the organization's startup team. Between academics and club activities I:</p>
-                     <ul>
-                        <li>Standardized brand guidelines to unify design,</li>
-                        <li>Redesigned the Our Team page to improve UX/UI and maintain visitors’ attention,</li>
-                        <li>Designed and hand-coded the What’s New and Feature boxes on home page to increase user engagement and transparency about the latest news from the organization,</li>
-                        <li>Inspected site design regularly to minimize discrepancies, and</li>
-                        <li>Updated the blog to keep partners and supporters updated on the organization.</li>
-                     </ul>
-                     <p>
-                        Not only did I keep the organization's website up-to-date with current web design trends and standards, the new designs garnered praise from site visitors and increased interest from potential partners and supporters. It also gave me room to challenge myself. In half a summer, I learned how to code in jQuery, design and develop using UX and UI concepts, create traditional wireframes, code mockups, use browser developer tools, debug browser-specific problems, and work with people from all over the organization (and outside of it). This was all kind of terrifying, but I'm so glad I did it.
-                     </p>
-                  </div>
-               </div>
-            </div>
-            
-            <h1>
-               portfolio
-            </h1>
-            
-            <p>
-               <a href="https://traumapartners.org/">Partnerships for Trauma Recovery: July 2016 - March 2018</a>
-            </p>
-            <p>
-               <a href="http://massaction.berkeley.edu/">Mass Action in the Nervous System: January 2016 - May 2016</a>
-            </p>
-            <p>
-               UC Berkeley SWE Overnight Hosting Program: April 2015 (taken down)
-            </p>
-         </section>
-         
-         <section id="contact">
-            <h1>
-               contact me
-            </h1>
-         
-            <p>
-               Find me on <a href="https://www.linkedin.com/in/carolrtang">LinkedIn</a> and on <a href="https://github.com/crtang">Github</a>.
-            </p>
-         </section>
-            
-      </div>
-   </body>
+            <figcaption>
+              <a class="site" href="https://crtang.github.io/unplugged/" target="_blank">
+                <h3>Unplugged</h3>
+              </a>
 
-   <footer>
-      <p class="footer">
-         <a class="ft" href="#about">about</a>
-         <a class="ft" href="#portfolio">portfolio</a>
-         <a class="ft" href="#contact">contact</a>
+              <p>
+                A fully responsive website for a theoretical retreat site, Unplugged. Based on Photoshop design comps.
+              </p>
+
+              <p>
+                <strong>Skills & tools:</strong> Flexbox, responsive typography, media queries
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="project">
+          <figure>
+            <a class="site" href="https://crtang.github.io/sticky-notes/" target="_blank">
+              <img src="Sticky Notes.png" alt="Screenshot of Sticky Notes web app" />
+            </a>
+            
+            <figcaption>
+              <a class="site" href="https://crtang.github.io/sticky-notes/" target="_blank">
+                <h3>Sticky Notes</h3>
+              </a>
+
+              <p>
+                A web app where users can create, edit, delete, and search for sticky notes.
+              </p>
+
+              <p>
+                <strong>Skills & tools:</strong> React, ES6, JSX, data flow, DOM manipulation, local storage
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="project">
+          <figure>
+            <a class="site" href="https://crtang.github.io/creative-portfolio/" target="_blank">
+              <img src="汤睿婷 | Tang Rui Ting.png" alt="Screenshot of personal music portfolio website" />
+            </a>
+            
+            <figcaption>
+              <a class="site" href="https://crtang.github.io/creative-portfolio/" target="_blank">
+                <h3>汤睿婷 | Tang Rui Ting</h3>
+              </a>
+
+              <p>
+                My personal music site, designed and coded by yours truly.
+                A work in progress.
+              </p>
+
+              <p>
+                <strong>Skills & tools:</strong> Flexbox, responsive design, JavaScript, jQuery
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="project">
+          <figure>
+            <a class="site" href="https://crtang.github.io/seasons/" target="_blank">
+              <img src="Seasons | A Productivity App.png" alt="Screenshot of productivity web app Seasons" />
+            </a>
+            
+            <figcaption>
+              <a class="site" href="https://crtang.github.io/seasons/" target="_blank">
+                <h3>Seasons</h3>
+              </a>
+
+              <p>
+                A minimal viable product for a productivity app I want to
+                finish coding one day. Currently includes an analog clock,
+                a to-do list, and a view-only calendar.
+              </p>
+
+              <p>
+                <strong>Skills & tools:</strong> React, ES6, JSX, data flow, DOM manipulation, local storage
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <section id="skills" class="card">
+        <h2 id="skills-header">skills</h2>
+
+        <p id="skill-and-tool-icons">
+          <img class="fa-brands" src="html5-brands-solid.svg" alt="HTML5 icon" />
+          <img class="fa-brands" src="css3-alt-brands-solid.svg" alt="CSS3 icon" />
+          <img class="fa-brands" src="square-js-brands-solid.svg" alt="JavaScript icon" />
+          <img class="fa-brands" src="react-brands-solid.svg" alt="React icon" />
+          <img class="fa-brands" src="git-alt-brands-solid.svg" alt="Git icon" />
+          <img class="fa-brands" src="github-brands-solid.svg" alt="GitHub icon" />
+        </p>
+
+        <p id="tools">
+          <span class="tool">Browser DevTools</span>
+          <span class="tool">CodeSandbox</span>
+          <span class="tool">Responsive Design</span>
+          <span class="tool">VS Code</span>
+          <span class="tool">WordPress</span>
+          <span class="tool">GetResponse</span>
+        </p>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>contact</h2>
+
+        <div id="contact-container">
+          <img class="card-icon" src="quill-ink.svg" alt="quill in ink bottle icon" />
+
+          <p id="contact-line">
+            Find me on <a href="https://www.linkedin.com/in/carolrtang">LinkedIn</a> or <a href="https://github.com/crtang" target="_blank">GitHub</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2024 Carol Ruiting Tang
       </p>
-      <p class="foot center">
-         &copy; Carol Tang 2019. All rights reserved.
-      </p>
-   </footer>
+    </footer>
+  </body>
 </html>
