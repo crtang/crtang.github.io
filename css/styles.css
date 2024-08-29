@@ -1,27 +1,27 @@
 /* FONTS */
 @font-face {
   font-family: 'Montez';
-  src: url('../fonts/montez/Montez-Regular.ttf');
+  src: url('../fonts/montez.regular.ttf');
 }
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+  src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('../fonts/Gotham/Gotham/Gotham-Light.otf');
+  src: url('../fonts/Gotham Light.TTF');
 }
 
 @font-face {
   font-family: 'Gotham Book';
-  src: url('../fonts/Gotham/Gotham/Gotham-Book.otf');
+  src: url('../fonts/Gotham-Book.otf');
 }
 
 @font-face {
   font-family: 'Gotham Bold';
-  src: url('../fonts/Gotham/Gotham/Gotham-Medium.otf');
+  src: url('../fonts/Gotham-Bold.otf');
 }
 
 
@@ -35,10 +35,10 @@
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Gotham', sans-serif;
   --color-1: #52b69a;
-  --color-2: #97ab4d; /* a69a56 - olive green */
-  --color-3: #76c893; /* 61731f - dark olive green */
-  --color-4: #f0faf6; /* fcf8f2 - light peach */
-  --color-5: #e1ede9; /* fae1c6 - peach */
+  --color-2: #97ab4d;
+  --color-3: #76c893;
+  --color-4: #f0faf6;
+  --color-5: #e1ede9;
 }
 
 h1, h2, h3, h4, h5, h6 {
