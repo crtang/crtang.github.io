@@ -144,7 +144,7 @@ main {
   display: flex;
   flex-flow: column wrap;
   margin-bottom: 7.5%;
-  box-shadow: -2px -2px 5px var(--color-5), 2px 2px 5px var(--color-5);
+  box-shadow: -5px -5px 10px var(--color-5), 5px 5px 10px var(--color-5);
   border: none;
   border-radius: 25px;
   padding: 5%;
