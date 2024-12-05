@@ -231,7 +231,7 @@ figcaption h3 {
 
 
 /* SKILLS */
-#skill-and-tool-icons {
+.skill-and-tool-icons {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
