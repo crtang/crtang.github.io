@@ -286,6 +286,14 @@ footer {
 
 
 /* MEDIA QUERIES */
+/* SMOOTH SCROLLING ON NON-SAFARI BROWSERS */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
 /* DEVICES */
 /**********/
 /* TABLET */
