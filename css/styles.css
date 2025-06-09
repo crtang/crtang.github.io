@@ -238,15 +238,24 @@ figcaption h3 {
 .skill-and-tool-icons {
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: repeat(4, 6em);
+  grid-template-rows: repeat(4, 10em);
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   margin: 5vw;
 }
 
+.skill {
+  padding-bottom: 1em;
+  text-align: center;
+}
+
 .fa-brands {
   height: 5em;
   margin: 5px;
+}
+
+.caption {
+  font-size: 0.8em;
 }
 
 
@@ -343,13 +352,17 @@ footer {
   }
 
   .skill-and-tool-icons {
-    grid-template-rows: repeat(3, 9em);
+    grid-template-rows: repeat(3, 11em);
     grid-template-columns: repeat(4, 1fr);
     margin: 0 2.5vw;
   }
 
   .fa-brands, .card-icon {
     height: 6em;
+  }
+
+  .caption {
+    font-size: 1em;
   }
 }
 
@@ -438,12 +451,16 @@ footer {
   }
 
   .skill-and-tool-icons {
-    grid-template-rows: repeat(3, 9em);
+    grid-template-rows: repeat(3, 12em);
     grid-template-columns: repeat(4, 1fr);
     margin: 0 2.5vw;
   }
 
   .fa-brands, .card-icon {
     height: 6em;
+  }
+
+  .caption {
+    font-size: 1em;
   }
 }
