@@ -296,7 +296,7 @@ footer {
 
 /* MEDIA QUERIES */
 /* SMOOTH SCROLLING ON NON-SAFARI BROWSERS */
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) and (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: smooth;
   }
