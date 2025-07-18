@@ -238,7 +238,7 @@ figcaption h3 {
 .skill-and-tool-icons {
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: repeat(4, 10em);
+  grid-template-rows: repeat(5, 10em);
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   margin: 5vw;
@@ -352,7 +352,7 @@ footer {
   }
 
   .skill-and-tool-icons {
-    grid-template-rows: repeat(3, 11em);
+    grid-template-rows: repeat(4, 11em);
     grid-template-columns: repeat(4, 1fr);
     margin: 0 2.5vw;
   }
@@ -451,7 +451,7 @@ footer {
   }
 
   .skill-and-tool-icons {
-    grid-template-rows: repeat(3, 12em);
+    grid-template-rows: repeat(4, 12em);
     grid-template-columns: repeat(4, 1fr);
     margin: 0 2.5vw;
   }
