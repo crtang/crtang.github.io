@@ -6,6 +6,12 @@
 }
 
 @font-face {
+  font-family: 'Tenor Sans';
+  font-weight: 400;
+  src: url('../fonts/TenorSans-Regular.ttf');
+}
+
+@font-face {
   font-family: 'Josefin Sans';
   font-weight: 400;
   src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
@@ -95,7 +101,7 @@ h1 {
 
 #page-title {
   margin: 3vh 0 2vh;
-  font-family: 'Montez', cursive;
+  font-family: 'Tenor Sans', cursive;
   letter-spacing: -0.8px;
 }
 
@@ -172,7 +178,7 @@ h2 {
 #about-blurb .highlight {
   margin-bottom: 3vh;
   text-align: center;
-  font-family: 'Montez', cursive;
+  font-family: 'Tenor Sans', cursive;
   font-size: 30px;
   color: var(--color-3);
 }
